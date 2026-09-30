@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="/assets/logoLazyTrip.png" alt="Logo LazyTrip" width="220"/>
+</p>
+
 # Memoria Técnica y Documentación del Sprint 1 
 # 1. Introducción
 Este documento recoge la memoria y la gestión de nuestro proyecto para el Sprint 1 de la asignatura Desarrollo de
@@ -6,5 +10,126 @@ uso de arquitecturas profesionales como MVC y el desglose de nuestras tareas.
 
 ## 2. Descripción del Proyecto
 ### 2.1 Identificación del Público Objetivo
+Tras una investigación sobre presupuestos de jóvenes realizado en 33 jóvenes Españoles
+hemos llegado a la situación de:
+Sobre el 81,85% de los jóvenes españoles de entre 18 y 24 años viajan solamente 1 o 2 veces al año y sobre un 12,1% no viaja ni una sola vez, reconociendo que la falta de presupuesto es lo que más les impide viajar, por ello nuestra aplicación busca que se proporcionen los sitios más ajustados al bolsillo de cada uno.
+[Ver Resultados de la Encuesta de Viajes (Google Forms)](https://docs.google.com/forms/d/1md7psvZ9x08voK7zRiic7U_xJHFKZ1plC8UFBwDeojA/viewanalytics)
+
+![IMAGEN DE RESPALDO](/assets/Datosencuesta1.png)
+
+
+Los mayores dolores de cabeza en este jóven público es además del presupuesto ajustado, la falta de tiempo, por ello la aplicación se encarga de armar itinerarios acorde al estilo de cada uno, desde días de descanso(actividades relajantes) hasta días de adrenalina o disfrute(parques de atracciones, bares, actividades), ahorrando tiempo y dinero
+Nuestro público objetivo está formado principalmente por jóvenes de entre 18 y 35 años, especialmente estudiantes, mochileros y viajeros con un presupuesto ajustado.
+
+Son personas que buscan conocer nuevos lugares y vivir experiencias, pero que tienen que controlar bastante el gasto del viaje. Por este motivo, suelen comparar precios de transporte, alojamiento y actividades antes de tomar una decisión.
+
+Dentro de este público podemos encontrar diferentes perfiles:
+
+- **Estudiantes:** tienen un presupuesto más limitado y suelen aprovechar fines de semana, puentes y vacaciones para viajar.
+
+- **Mochileros**: buscan conocer varios lugares gastando lo mínimo posible y suelen ser más flexibles con el alojamiento y el transporte.
+  
+- **Jóvenes trabajadores:** pueden disponer de algo más de presupuesto, pero normalmente tienen menos tiempo disponible para viajar.
+  
+- **Viajeros con presupuesto ajustado**: buscan ofertas y alternativas económicas para poder realizar el viaje sin gastar demasiado.
+
+También necesitan aprovechar al máximo el tiempo disponible. Al disponer muchas veces de pocos días para realizar una escapada, resulta útil tener organizado qué visitar, dónde comer y qué actividades realizar.
 
 ### 2.2 Objetivos Principales de la Interfaz
+El objetivo principal de nuestra interfaz es que cumpla con la regla de **"3 clicks"**.
+la regla de los 3 clics es el número máximo de clics que debería de hacer un usuario de nuestra aplicación para conseguir la información más critica. por ello la mejor opción seria el 1 presupuesto 2 alojamiento 3 generar itinerario.
+
+Nuesta interfaz además, debe cumplir el principio de simplicidad visual que consiste en que solo aparezcan en pantalla los elementos necesarios funciones claras y bien definidas para evitar abrumar al usuario.
+
+#### 2.2.1 Requisitos para hacer una buena interfaz:
+- Botones y Opciones de un único sentido: Hacer que cada botón, texto o icono tenga una función clarísima y que el usuario sepa para qué sirve nada más verlo. Botones y Opciones de un único sentido: Hacer que cada botón, texto o icono tenga una función clarísima y que el usuario sepa para qué sirve nada más verlo.
+
+- Mostrar solo lo necesario en cada momento: Enseñar únicamente las opciones que el usuario necesita en la pantalla en la que está, no las de todo el proceso a la vez.
+
+- Ordenar la información: Usar tarjetas, listas o tablas con buen espacio entre ellas para que lo más importante se vea de un solo vistazo.
+
+- Hacer las cosas fáciles al usuario: Cambiar los campos donde hay que escribir a mano por botones para marcar, listas o funciones automáticas
+
+#### 2.2.2 Posible opción de carga de itinerarios:
+una carga rápida de itinerarios, básicamente, lo que nos dice es que la app no debe dejar al usuario esperando con una pantalla en blanco, sino mostrar pantallas esqueleto (skeleton screens) mientras los datos se descargan por detrás.
+
+Para LazyTrip lo aplicaremos guardando el texto y la agenda del día en la memoria caché del dispositivo, para que abra al instante tanto en móvil como en escritorio y cargue lo pesado como los mapas en segundo plano.
+
+#### 2.2.3 ¿Como será la visualización de gastos por dia?:
+Hablando de la Visualización clara de gastos por día, consiste en mostrar el dinero gastado de forma muy visual usando etiquetas de colores según la categoría (transporte, comida, alojamiento) e iconos sencillos para no recargar la interfaz.
+
+Para LazyTrip la mejor opción es poner en la cabecera de cada día el total gastado junto a una barra de presupuesto, y que cada actividad lleve su costo en una etiqueta pequeña. Así el usuario ve los gastos del día de un solo vistazo sin pantallas complicadas.
+
+## 2.3 Benchmarking
+Se ha realizado un análisis comparativo de las principales aplicaciones de planificación de viajes disponibles en el mercado para identificar fortalezas y oportunidades de mejora:
+
+| Plataforma | Itinerarios automáticos | Ajuste a presupuesto | Alojamiento económico | Diario multimedia | Ahorro de tiempo |
+|---|---|---|---|---|---|
+| **LazyTrip** | Sí, según presupuesto e intereses | Sí, límite global por persona | Sí, mediante algoritmo de selección | Sí, fotos organizadas por día | Alto, automatizado |
+| **Booking.com** | No | Parcial, por noche | Sí, catálogo hotelero | No | Bajo, proceso manual |
+| **TripAdvisor** | No, armado manual | No | Sí, comparador de tarifas | No | Bajo, proceso manual |
+| **Airbnb** | No | Parcial, por noche | Sí, particulares | No | Bajo, proceso manual |
+| **Google Trips** | No, solo agrupa reservas | No | Sí, buscador centralizado | No | Medio, vía correo |
+
+Ambas plataformas destacan en el sector del turismo digital, pero abordan la experiencia de usuario desde perspectivas completamente distintas: Booking.com prioriza la conversión transaccional puntual, mientras que TripAdvisor se enfoca en la exploración y la gestión integral de viajes.
+
+En cambio Lazytrip Combina la generación automática de itinerarios organizados por días y horas con la gestión en tiempo real del presupuesto, todo presentado bajo una interfaz minimalista y fácil de usar
+
+## 2.4 Product Backlog
+En la metodología Scrum simplemente el product backlog es una lista de tareas dinamicas donde se escriben todas las cosas, funcionalidades y opciones que queremos que una aplicación tenga a lo largo de su vida.
+
+ para que toda persona que forma parte de un equpo lo entienda esas ideas que hacemos en el product backlog las escribimos en forma de historia de usuario HU.
+
+las historias de usuario son frases sencillas que explica cada función desde como la persona ve la aplicación. por ejemplo:
+**"Como [tipo de usuario], quiero [hacer una acción] para [conseguir un beneficio]."**
+
+Para organizar el desarrollo de la aplicación, se han definido y priorizado las principales historias de usuario según su importancia y el valor que aportan al proyecto:
+
+| Prioridad | Historia de Usuario | Valor / Justificación |
+|---|---|---|
+| **Alta** | Definición de presupuesto total por viaje | Sin esto no hay propuesta de valor diferenciadora. |
+| **Alta** | Crear itinerario base por días y horas | Función primaria de la aplicación. |
+| **Alta** | Asignar coste estimado a cada actividad | Une el itinerario con el control de presupuesto. |
+| **Media** | Alertas de desvío presupuestario | Añade la inteligencia "ajustable" a la app. |
+| **Media** | Filtro de lugares por precio | Facilita el llenado del itinerario con presupuesto real. |
+| **Baja** | Planificación colaborativa | Mejora la experiencia, pero no frena la funcionalidad individual. |
+
+## 2.5 Sprint Backlog (Sprint 1)
+El Sprint Backlog agrupa el conjunto de tareas e Historias de Usuario seleccionadas durante las fechas propuestas del sprint.
+
+#### 1. Selección Basada en el Sprint Goal y Capacidad
+- El equipo define un objetivo claro para la iteración (Sprint Goal) y extrae las historias prioritarias del Product Backlog. 
+- La selección se limita considerando la capacidad real del equipo y la velocidad alcanzada en iteraciones anteriores.
+- Garantiza que el compromiso de entrega sea realista y no sobrecargue al equipo en ese periodo de tiempo.
+
+#### 2. Descomposición de Historias en Tareas Manejables
+
+- Las historias de usuario elegidas se dividen en tareas técnicas muy concretas y de pequeño tamaño.
+
+- Cada tarea individual debe diseñarse para completarse idealmente en pocas horas o en un máximo de un día.
+
+- Esta fragmentación facilita el flujo continuo de trabajo y hace evidente cualquier estancamiento o bloqueo.
+
+## 3. Descripción del Alcance Técnico
+### 3.1 Patrón de Arquitectura de la Aplicación Gráfica
+
+### 3.2 Descripción de Librerías de Componentes
+Todavía no estamos seguros de utilizar estas librerías, a priori las librerías y componentes son los siguientes: 
+
+#### Librerías de Componentes Nativas
+AWT, Abstract Window Toolkit : Es la librería gráfica original de Java. Cuando creamos un botón o un panel en AWT, Java le pide al propio sistema operativo que dibuje ese control. Esto hace que la aplicación se integre visualmente con el sistema, pero limita mucho el diseño, ya que solo permite usar los componentes más básicos que existan en todos los sistemas operativos por igual.
+
+#### Librerías de Componentes y Multiplataforma
+Swing y NetBeans Matisse. Es el estándar de Java para la creación de interfaces de escritorio. Permite aplicar estilo Look and Feel para cambiar toda la apariencia de la aplicación sin tocar el código de la lógica. Se integra de manera nativa con editores visuales como NetBeans Matisse, lo que nos facilita arrastrar componentes, ubicarlos en pantalla y conectarlos fácilmente con los eventos del sistema. Además, es ideal para crear componentes personalizados y reutilizables en la aplicación.
+Tambien se podrian usar otros como javaFX o FlatLaf
+
+#### Elección Técnica Justificada para LazyTrip
+Para elegir los requerimientos del proyecto LazyTrip necesita una interfaz fluida para web, escritorio y dispositivo móvil.
+Elegimos la tecnología de Swing con el editor visual NetBeans Matisse junto con la librería de estilos AWT o FlatLaf. Esta combinación nos permite trabajar de forma ágil creando pantallas mediante edición visual, desarrollar nuestros propios componentes reutilizables como las tarjetas para cada día de viaje o las opciones de alojamiento y garantizar un acabado visual moderno, limpio en cualquier ordenador o dispositivo donde se ejecute la aplicación.
+
+### 3.3 Componentes: Características y Campo de Aplicación
+
+### 3.4 Asociación de Acciones a Eventos y Edición del Código Generado
+
+### 3.5 Descripción de Clases, Propiedades y Métodos
+
