@@ -128,6 +128,39 @@ Para elegir los requerimientos del proyecto LazyTrip necesita una interfaz fluid
 Elegimos la tecnología de Swing con el editor visual NetBeans Matisse junto con la librería de estilos AWT o FlatLaf. Esta combinación nos permite trabajar de forma ágil creando pantallas mediante edición visual, desarrollar nuestros propios componentes reutilizables como las tarjetas para cada día de viaje o las opciones de alojamiento y garantizar un acabado visual moderno, limpio en cualquier ordenador o dispositivo donde se ejecute la aplicación.
 
 ### 3.3 Componentes: Características y Campo de Aplicación
+Para garantizar el desarrollo de LazyTrip, hemos establecido que diseño se fundamenta en un ecosistema tecnológico escalable.
+
+#### 3.3.1 Componentes Técnicos y Características
+**A. Frontend** 
+
+Framework Multiplataforma (Flutter): Permite lanzar la app en iOS y Android compartiendo hasta un 80% de código. Es ideal para aplicaciones para principiantes y estudiaremos esta tecnología durante el curso. 
+
+Motor de Renderizado de Itinerarios: Componentes visuales interactivos (como Flutter ReorderableListView) para reordenar días y actividades de forma fluida e intuitiva. 
+
+**B. Backend y Datos**
+
+Base de datos SQL: Ideal para itinerarios, donde la estructura de un día de viaje es flexible y contiene subcolecciones de actividades y costos, contenido con el que estamos familiarizados.
+
+Sincronización en tiempo real: Crucial para la planificación colaborativa, es decir, si se pretende organizar un itinerario entre más de una persona (si dos usuarios editan el presupuesto del viaje al mismo tiempo).
+
+**C. API e Integraciones Clave**
+API de Divisas y Monedas (p. ej., Open Exchange Rates o Fixer.io): Permite convertir gastos locales a la moneda base del viajero en tiempo real.
+API de Mapas y Lugares (Google Places API): Para autocompletar nombres de hoteles, restaurantes y atracciones, así como obtener estimaciones previas de precio o nivel de coste.
+
+#### 3.3.2 Campo de Aplicación
+El mayor impacto de esta aplicación no está en el turismo de lujo (donde el dinero no es restricción), sino en sectores donde la optimización financiera determina la duración o viabilidad del viaje:
+
+**1.	Turismo Joven:**
+  ○	Por qué: Viajan con presupuestos ajustados durante semanas o meses. Podría ser conveniente implementar un seguimiento de gastos
+  
+**2.	Grupos de Amigos y Despedidas de Soltero/a:**
+  ○	Por qué: Gestionar gastos grupales suele generar fricción. La combinación de itinerario + división de presupuesto transparente evita conflictos.
+  
+**3.	Nómadas Digitales y Viajeros de Larga Estancia:**
+  ○	Por qué: Combinan trabajo con turismo y necesitan equilibrar costes de estancia con presupuesto de ocio semanal.
+  
+**4.	Agencias de Viajes Independientes o Guías Locales:**
+  ○	Por qué: Pueden usar la plataforma como herramienta para ofrecer a sus clientes itinerarios a medida optimizados según el presupuesto que el cliente declare.
 
 ### 3.4 Asociación de Acciones a Eventos y Edición del Código Generado
 
