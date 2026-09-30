@@ -97,6 +97,8 @@ Para organizar el desarrollo de la aplicación, se han definido y priorizado las
 ## 2.5 Sprint Backlog (Sprint 1)
 El Sprint Backlog agrupa el conjunto de tareas e Historias de Usuario seleccionadas durante las fechas propuestas del sprint.
 
+DUDAS SPRINT BACKLOG
+
 #### 1. Selección Basada en el Sprint Goal y Capacidad
 - El equipo define un objetivo claro para la iteración (Sprint Goal) y extrae las historias prioritarias del Product Backlog. 
 - La selección se limita considerando la capacidad real del equipo y la velocidad alcanzada en iteraciones anteriores.
