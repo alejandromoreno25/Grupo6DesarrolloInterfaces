@@ -37,12 +37,12 @@ También necesitan aprovechar al máximo el tiempo disponible. Al disponer mucha
 
 ### 2.2 Objetivos Principales de la Interfaz
 El objetivo principal de nuestra interfaz es que cumpla con la regla de **"3 clicks"**.
-la regla de los 3 clics es el número máximo de clics que debería de hacer un usuario de nuestra aplicación para conseguir la información más critica. por ello la mejor opción seria el 1 presupuesto 2 alojamiento 3 generar itinerario.
+la regla de los 3 clics es el número máximo de clics que debería de hacer un usuario de nuestra aplicación para conseguir la información más critica. por ello la mejor opción seria el 1 presupuesto 2 alojamiento 3 generar itinerario.[1][2]
 
 Nuesta interfaz además, debe cumplir el principio de simplicidad visual que consiste en que solo aparezcan en pantalla los elementos necesarios funciones claras y bien definidas para evitar abrumar al usuario.
 
 #### 2.2.1 Requisitos para hacer una buena interfaz:
-- Botones y Opciones de un único sentido: Hacer que cada botón, texto o icono tenga una función clarísima y que el usuario sepa para qué sirve nada más verlo. Botones y Opciones de un único sentido: Hacer que cada botón, texto o icono tenga una función clarísima y que el usuario sepa para qué sirve nada más verlo.
+- Botones y Opciones de un único sentido: Hacer que cada botón, texto o icono tenga una función clarísima y que el usuario sepa para qué sirve nada más verlo. Botones y Opciones de un único sentido: Hacer que cada botón, texto o icono tenga una función clarísima y que el usuario sepa para qué sirve nada más verlo.[1][2][3]
 
 - Mostrar solo lo necesario en cada momento: Enseñar únicamente las opciones que el usuario necesita en la pantalla en la que está, no las de todo el proceso a la vez.
 
@@ -76,7 +76,7 @@ Ambas plataformas destacan en el sector del turismo digital, pero abordan la exp
 En cambio Lazytrip Combina la generación automática de itinerarios organizados por días y horas con la gestión en tiempo real del presupuesto, todo presentado bajo una interfaz minimalista y fácil de usar
 
 ## 2.4 Product Backlog
-En la metodología Scrum simplemente el product backlog es una lista de tareas dinamicas donde se escriben todas las cosas, funcionalidades y opciones que queremos que una aplicación tenga a lo largo de su vida.
+En la metodología Scrum simplemente el product backlog es una lista de tareas dinamicas donde se escriben todas las cosas, funcionalidades y opciones que queremos que una aplicación tenga a lo largo de su vida.[4][5]
 
  para que toda persona que forma parte de un equpo lo entienda esas ideas que hacemos en el product backlog las escribimos en forma de historia de usuario HU.
 
@@ -126,7 +126,7 @@ El objetivo principal de este Sprint 1 (Sprint Goal) es maquetar las vistas prin
 
 #### 1.3 Descomposición de Historias en Tareas Manejables
 
-- Las historias de usuario elegidas se dividen en tareas técnicas muy concretas y de pequeño tamaño.
+- Las historias de usuario elegidas se dividen en tareas técnicas muy concretas y de pequeño tamaño.[3][5]
 
 - Cada tarea individual debe diseñarse para completarse idealmente en pocas horas o en un máximo de un día.
 
@@ -138,11 +138,11 @@ El objetivo principal de este Sprint 1 (Sprint Goal) es maquetar las vistas prin
 ### 3.2 Descripción de Librerías de Componentes
 Todavía no estamos seguros de utilizar estas librerías, a priori las librerías y componentes son los siguientes: 
 
-#### Librerías de Componentes Nativas
+#### Librerías de Componentes Nativas [7][8]
 AWT, Abstract Window Toolkit : Es la librería gráfica original de Java. Cuando creamos un botón o un panel en AWT, Java le pide al propio sistema operativo que dibuje ese control. Esto hace que la aplicación se integre visualmente con el sistema, pero limita mucho el diseño, ya que solo permite usar los componentes más básicos que existan en todos los sistemas operativos por igual.
 
 #### Librerías de Componentes y Multiplataforma
-Swing y NetBeans Matisse. Es el estándar de Java para la creación de interfaces de escritorio. Permite aplicar estilo Look and Feel para cambiar toda la apariencia de la aplicación sin tocar el código de la lógica. Se integra de manera nativa con editores visuales como NetBeans Matisse, lo que nos facilita arrastrar componentes, ubicarlos en pantalla y conectarlos fácilmente con los eventos del sistema. Además, es ideal para crear componentes personalizados y reutilizables en la aplicación.
+Swing y NetBeans Matisse. Es el estándar de Java para la creación de interfaces de escritorio. Permite aplicar estilo Look and Feel para cambiar toda la apariencia de la aplicación sin tocar el código de la lógica. Se integra de manera nativa con editores visuales como NetBeans Matisse, lo que nos facilita arrastrar componentes, ubicarlos en pantalla y conectarlos fácilmente con los eventos del sistema. Además, es ideal para crear componentes personalizados y reutilizables en la aplicación.[7][8]
 Tambien se podrian usar otros como javaFX o FlatLaf
 
 #### Elección Técnica Justificada para LazyTrip
@@ -184,11 +184,13 @@ El mayor impacto de esta aplicación no está en el turismo de lujo (donde el di
 **4.	Agencias de Viajes Independientes o Guías Locales:**
   ○	Por qué: Pueden usar la plataforma como herramienta para ofrecer a sus clientes itinerarios a medida optimizados según el presupuesto que el cliente declare.
 
+
+
 ### 3.4 Asociación de Acciones a Eventos y Edición del Código Generado
 
 En este punto, al no tener código generado para nuestra interfaz ni aplicación, hemos decidido llevar a cabo una investigación para poder tener más facilidad para decidir en un futuro. Entre ellas, hemos decidido lo siguiente:
 
-**1. Gestión de Usuarios y Preferencias de Viaje
+**1. Gestión de Usuarios y Preferencias de Viaje**
 
 Administra el acceso seguro y almacena el perfil del viajero, su presupuesto estimado y su ritmo ideal.
 
@@ -196,7 +198,7 @@ Permite personalizar categorías de interés para adaptar la planificación a lo
 
 Mantiene las configuraciones sincronizadas en cualquier dispositivo para una experiencia uniforme.
 
-**2. Motor de Generación y Optimización de Itinerarios
+**2. Motor de Generación y Optimización de Itinerarios**
 
 Organiza automáticamente las visitas analizando distancias, horarios de apertura y tiempos de traslado.
 
@@ -204,7 +206,7 @@ Permite reordenar, agregar o eliminar paradas con flexibilidad según surjan cam
 
 Genera rutas eficientes que maximizan el tiempo disponible durante toda la estadía.
 
-**3. Centralización de Reservas y Control de Gastos
+**3. Centralización de Reservas y Control de Gastos**
 
 Reúne pasajes, hospedajes y entradas en una vista cronológica para una consulta rápida.
 
@@ -212,7 +214,7 @@ Registra los gastos reales, los compara con el presupuesto y convierte distintas
 
 Ofrece un balance claro clasificado por transporte, alojamiento, comida y entrenamiento.
 
-**4. Recomendaciones Inteligentes y Adaptación Dinámica [FUTURO]
+**4. Recomendaciones Inteligentes y Adaptación Dinámica [FUTURO]**
 
 Integrará un asistente de IA para sugerir actividades personalizadas según el comportamiento del usuario.
 
@@ -220,7 +222,7 @@ Reajustará la agenda automáticamente ante imprevistos como mal clima, tráfico
 
 Enviará alertas preventivas con recordatorios y rutas alternativas antes de cada parada.
 
-**5. Colaboración Grupal y Acceso Sin Conexión [FUTURO]
+**5. Colaboración Grupal y Acceso Sin Conexión [FUTURO]**
 
 Permitirá la planificación compartida entre varios viajeros con votaciones y división de costos.
 
@@ -231,55 +233,6 @@ Garantizará la consulta de mapas y documentos guardados aun sin conexión a int
 
 ### 3.5 Descripción de Clases, Propiedades y Métodos
   Tras una investigación sobre como programariamos nuestra aplicación, llegamos a la conclusión que lo más óptimo seria crear:
-
-  Clase Usuario
-
-Representa a las personas que utilizan la aplicación y permite gestionar sus datos personales y sus viajes.
-
-Propiedades: idUsuario, nombre, correoElectronico, contraseña y listaViajes.
-Métodos: registrarse(), iniciarSesion(), cerrarSesion(), modificarPerfil() y consultarViajes().
-
-Clase Viaje
-
-Representa un viaje creado por un usuario, almacenando su información principal y permitiendo gestionar su planificación.
-
-Propiedades: idViaje, destino, fechaInicio, fechaFin, presupuesto, participantes e itinerario.
-Métodos: crearViaje(), modificarViaje(), eliminarViaje(), añadirParticipante() y calcularDuracion().
-
-Clase Itinerario
-
-Se encarga de organizar las actividades y lugares que se visitarán durante el viaje, distribuyéndolos por días.
-
-Propiedades: idItinerario, listaActividades, fecha y ordenActividades.
-Métodos: generarItinerario(), añadirActividad(), eliminarActividad() y reorganizarActividades().
-
-Clase Actividad
-
-Representa cada actividad, visita o experiencia que forma parte del itinerario.
-
-Propiedades: idActividad, nombre, descripcion, ubicacion, fecha, hora y costeEstimado.
-Métodos: modificarActividad(), consultarDetalles() y calcularCoste().
-
-Clase Presupuesto
-
-Permite controlar el dinero disponible para el viaje y realizar un seguimiento de los gastos.
-
-Propiedades: presupuestoTotal, gastos, dineroDisponible y categoriaGastos.
-Métodos: añadirGasto(), eliminarGasto(), calcularGastoTotal() y consultarDineroDisponible().
-
-Clase Gasto
-
-Almacena cada gasto realizado o previsto durante el viaje.
-
-Propiedades: idGasto, concepto, cantidad, categoria y fecha.
-Métodos: registrarGasto(), modificarGasto() y eliminarGasto().
-
-Clase Grupo
-
-Permite gestionar a los participantes de un viaje y facilitar su organización conjunta.
-
-Propiedades: idGrupo, nombreGrupo, listaUsuarios y viajeAsociado.
-Métodos: añadirUsuario(), eliminarUsuario(), consultarParticipantes() y compartirItinerario().
 
 **Clase Usuario**
 
@@ -329,4 +282,20 @@ Permite gestionar a los participantes de un viaje y facilitar su organización c
 
 Propiedades: idGrupo, nombreGrupo, listaUsuarios y viajeAsociado.
 Métodos: añadirUsuario(), eliminarUsuario(), consultarParticipantes() y compartirItinerario().
+
 ## 4. Referencias IEE
+[1] LiMaGe Marketing, “Diseño web: la regla de los 3 clics,” LiMaGe Marketing. [En línea]. Disponible en: https://limagemarketing.es/diseno-web-regla-de-los-3-clics/. [Accedido: 1-oct-2026].
+
+[2] Hocoos, “¿Qué es la regla de los tres clics?,” Hocoos. [En línea]. Disponible en: https://hocoos.com/es/respuestas/what-is-the-three-click-rule/. [Accedido: 1-oct-2026].
+
+[3] App Design Book, “Patrones de interacción en móviles,” App Design Book. [En línea]. Disponible en: https://www.appdesignbook.com/es/contenidos/patrones-interaccion-moviles. [Accedido: 1-oct-2026].
+
+[4] Scrum.org, “What is a Product Backlog?,” Scrum.org. [En línea]. Disponible en: https://www.scrum.org/resources/what-is-a-product-backlog. [Accedido: 1-oct-2026].
+
+[5] Atlassian, “Historias de usuario: ejemplos y plantilla,” Atlassian Agile Coach. [En línea]. Disponible en: https://www.atlassian.com/es/agile/project-management/user-stories. [Accedido: 1-oct-2026].
+
+[6] Mountain Goat Software, “User Stories,” Mountain Goat Software. [En línea]. Disponible en: https://www.mountaingoatsoftware.com/agile/user-stories. [Accedido: 1-oct-2026].
+
+[7] OpenJFX, “JavaFX,” OpenJFX. [En línea]. Disponible en: https://openjfx.io/. [Accedido: 1-oct-2026].
+
+[8] OpenJFX, “Getting Started with JavaFX,” OpenJFX Documentation. [En línea]. Disponible en: https://openjfx.io/openjfx-docs/. [Accedido: 1-oct-2026].
