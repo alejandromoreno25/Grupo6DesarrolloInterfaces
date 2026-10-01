@@ -97,14 +97,34 @@ Para organizar el desarrollo de la aplicación, se han definido y priorizado las
 ## 2.5 Sprint Backlog (Sprint 1)
 El Sprint Backlog agrupa el conjunto de tareas e Historias de Usuario seleccionadas durante las fechas propuestas del sprint.
 
-DUDAS SPRINT BACKLOG
+### 1. Selección Basada en el Sprint Goal y Capacidad
 
-#### 1. Selección Basada en el Sprint Goal y Capacidad
+El objetivo principal de este Sprint 1 (Sprint Goal) es maquetar las vistas principales de la aplicación respetando la **regla de los 3 clics**, estructurar el proyecto bajo el patrón de arquitectura **MVC** y preparar la documentación técnica para la entrega del RA1.
+
+###  1.1 Desglose De Tareas
+
+| ID | Tarea / Entregable | Estado |
+|---|---|---|
+| **#1** | Identificación del Público Objetivo | Terminado |
+| **#2** | Investigación y Organización de las Tareas del Sprint 1 Sprint Backlog | Terminado |
+| **#3** | Descripción de las clases, propiedades, métodos | Terminado |
+| **#4** | Asociación de acciones a eventos y edición del código generado | Terminado |
+| **#5** | Componente: características y campo de aplicación | Terminado |
+| **#6** | Patrón de arquitectura de la aplicación gráfica | Terminado |
+| **#7** | Objetivos Principales de la Interfaz | Terminado |
+| **#8** | Definición y Estructuración del Product Backlog | Terminado |
+| **#9** | Benchmarking Análisis de Competencia | Terminado |
+| **#10** | Descripción de las librerías de componentes nativas y multiplataforma | Terminado |
+| **#11** | Maquetación de la memoria del Sprint 1 | Terminado |
+| **#12** | Presentación del Sprint Review | Terminado |
+| **#13** | prototipo e interfaz | Terminado |
+
+#### 1.2 Selección Basada en el Sprint Goal y Capacidad
 - El equipo define un objetivo claro para la iteración (Sprint Goal) y extrae las historias prioritarias del Product Backlog. 
 - La selección se limita considerando la capacidad real del equipo y la velocidad alcanzada en iteraciones anteriores.
 - Garantiza que el compromiso de entrega sea realista y no sobrecargue al equipo en ese periodo de tiempo.
 
-#### 2. Descomposición de Historias en Tareas Manejables
+#### 1.3 Descomposición de Historias en Tareas Manejables
 
 - Las historias de usuario elegidas se dividen en tareas técnicas muy concretas y de pequeño tamaño.
 
