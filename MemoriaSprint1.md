@@ -134,6 +134,16 @@ El objetivo principal de este Sprint 1 (Sprint Goal) es maquetar las vistas prin
 
 ## 3. Descripción del Alcance Técnico
 ### 3.1 Patrón de Arquitectura de la Aplicación Gráfica
+El patrón Modelo-Vista-Controlador (MVC) es ideal para esta aplicación porque su pilar fundamental es la separación de responsabilidades, resolviendo de forma directa la complejidad de mezclar datos financieros con interfaces dinámicas.
+
+**Modelo**
+Maneja la lógica de negocio pura, la persistencia de datos y las reglas matemáticas. El cálculo de balances, la conversión de divisas en tiempo real y el recálculo automático del límite diario residual son operaciones numéricas delicadas. Al aislarlas en el Modelo, garantizas que la lógica financiera no dependa de cómo se muestre en pantalla.
+
+**Vista**
+Representa la interfaz de usuario y captura las interacciones. La aplicación tiene múltiples formas de visualizar la misma información. La Vista solo se encarga de pintar lo que el Controlador le indica, lo que facilita cambiar el diseño visual o agregar animaciones.
+
+**Controlador**
+Actúa como intermediario. Escucha las acciones del usuario en la Vista, invoca los cambios en el Modelo y actualiza la Vista con la nueva respuesta. Después de que la aplicación reciba una interacción por parte del usuario, el controlador captura el evento del usuario, el modelo calcula la parte lógica de la interacción, por ejemplo un pago o un cambio de divisa, y le indica a la vista las consecuencias gráficas de la interacción.
 
 ### 3.2 Descripción de Librerías de Componentes
 Todavía no estamos seguros de utilizar estas librerías, a priori las librerías y componentes son los siguientes: 
