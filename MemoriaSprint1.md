@@ -186,8 +186,100 @@ El mayor impacto de esta aplicación no está en el turismo de lujo (donde el di
 
 ### 3.4 Asociación de Acciones a Eventos y Edición del Código Generado
 
+En este punto, al no tener código generado para nuestra interfaz ni aplicación, hemos decidido llevar a cabo una investigación para poder tener más facilidad para decidir en un futuro. Entre ellas, hemos decidido lo siguiente:
+
+**1. Gestión de Usuarios y Preferencias de Viaje
+
+Administra el acceso seguro y almacena el perfil del viajero, su presupuesto estimado y su ritmo ideal.
+
+Permite personalizar categorías de interés para adaptar la planificación a los gustos de cada usuario.
+
+Mantiene las configuraciones sincronizadas en cualquier dispositivo para una experiencia uniforme.
+
+**2. Motor de Generación y Optimización de Itinerarios
+
+Organiza automáticamente las visitas analizando distancias, horarios de apertura y tiempos de traslado.
+
+Permite reordenar, agregar o eliminar paradas con flexibilidad según surjan cambios en el día.
+
+Genera rutas eficientes que maximizan el tiempo disponible durante toda la estadía.
+
+**3. Centralización de Reservas y Control de Gastos
+
+Reúne pasajes, hospedajes y entradas en una vista cronológica para una consulta rápida.
+
+Registra los gastos reales, los compara con el presupuesto y convierte distintas divisas.
+
+Ofrece un balance claro clasificado por transporte, alojamiento, comida y entrenamiento.
+
+**4. Recomendaciones Inteligentes y Adaptación Dinámica [FUTURO]
+
+Integrará un asistente de IA para sugerir actividades personalizadas según el comportamiento del usuario.
+
+Reajustará la agenda automáticamente ante imprevistos como mal clima, tráfico o cancelaciones.
+
+Enviará alertas preventivas con recordatorios y rutas alternativas antes de cada parada.
+
+**5. Colaboración Grupal y Acceso Sin Conexión [FUTURO]
+
+Permitirá la planificación compartida entre varios viajeros con votaciones y división de costos.
+
+Integrará sincronización directa con el calendario nativo y aplicaciones de mapas.
+
+Garantizará la consulta de mapas y documentos guardados aun sin conexión a internet.
+
+
 ### 3.5 Descripción de Clases, Propiedades y Métodos
   Tras una investigación sobre como programariamos nuestra aplicación, llegamos a la conclusión que lo más óptimo seria crear:
+
+  Clase Usuario
+
+Representa a las personas que utilizan la aplicación y permite gestionar sus datos personales y sus viajes.
+
+Propiedades: idUsuario, nombre, correoElectronico, contraseña y listaViajes.
+Métodos: registrarse(), iniciarSesion(), cerrarSesion(), modificarPerfil() y consultarViajes().
+
+Clase Viaje
+
+Representa un viaje creado por un usuario, almacenando su información principal y permitiendo gestionar su planificación.
+
+Propiedades: idViaje, destino, fechaInicio, fechaFin, presupuesto, participantes e itinerario.
+Métodos: crearViaje(), modificarViaje(), eliminarViaje(), añadirParticipante() y calcularDuracion().
+
+Clase Itinerario
+
+Se encarga de organizar las actividades y lugares que se visitarán durante el viaje, distribuyéndolos por días.
+
+Propiedades: idItinerario, listaActividades, fecha y ordenActividades.
+Métodos: generarItinerario(), añadirActividad(), eliminarActividad() y reorganizarActividades().
+
+Clase Actividad
+
+Representa cada actividad, visita o experiencia que forma parte del itinerario.
+
+Propiedades: idActividad, nombre, descripcion, ubicacion, fecha, hora y costeEstimado.
+Métodos: modificarActividad(), consultarDetalles() y calcularCoste().
+
+Clase Presupuesto
+
+Permite controlar el dinero disponible para el viaje y realizar un seguimiento de los gastos.
+
+Propiedades: presupuestoTotal, gastos, dineroDisponible y categoriaGastos.
+Métodos: añadirGasto(), eliminarGasto(), calcularGastoTotal() y consultarDineroDisponible().
+
+Clase Gasto
+
+Almacena cada gasto realizado o previsto durante el viaje.
+
+Propiedades: idGasto, concepto, cantidad, categoria y fecha.
+Métodos: registrarGasto(), modificarGasto() y eliminarGasto().
+
+Clase Grupo
+
+Permite gestionar a los participantes de un viaje y facilitar su organización conjunta.
+
+Propiedades: idGrupo, nombreGrupo, listaUsuarios y viajeAsociado.
+Métodos: añadirUsuario(), eliminarUsuario(), consultarParticipantes() y compartirItinerario().
 
 **Clase Usuario**
 
