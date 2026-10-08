@@ -2,6 +2,15 @@
   <img src="/assets/logoLazyTrip.png" alt="Logo LazyTrip" width="220"/>
 </p>
 
+# Cooevaluación
+| Nombre del Integrante | Nota Final (%) |
+| :--- | :---: |
+| Alejandro Moreno Luna | 100% |
+| Integrante 2 | — |
+| Integrante 3 | — |
+| Integrante 4 | — |
+| Integrante 5 | — |
+
 # Memoria Técnica y Documentación del Sprint 1 
 # 1. Introducción
 Este documento recoge la memoria y la gestión de nuestro proyecto para el Sprint 1 de la asignatura Desarrollo de
@@ -309,12 +318,3 @@ Métodos: añadirUsuario(), eliminarUsuario(), consultarParticipantes() y compar
 [7] OpenJFX, “JavaFX,” OpenJFX. [En línea]. Disponible en: https://openjfx.io/. [Accedido: 1-oct-2026].
 
 [8] OpenJFX, “Getting Started with JavaFX,” OpenJFX Documentation. [En línea]. Disponible en: https://openjfx.io/openjfx-docs/. [Accedido: 1-oct-2026].
-
-## 5. Cooevaluación.
-| Nombre del Integrante | Plazos (20%) | Calidad (20%) | Iniciativa (20%) | Trabajo en Equipo (20%) | Comunicación (20%) | Nota Final |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Alejandro Moreno Luna** | 10 | 8 | 10 | 10 | 10 | **9,60** |
-| **Nombre Integrante 2** | - | - | - | - | - | **-** |
-| **Nombre Integrante 3** | - | - | - | - | - | **-** |
-| **Nombre Integrante 4** | - | - | - | - | - | **-** |
-| **Nombre Integrante 5** | - | - | - | - | - | **-** |
