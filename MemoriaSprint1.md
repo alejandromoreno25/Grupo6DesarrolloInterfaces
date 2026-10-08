@@ -7,7 +7,7 @@
 | :--- | :---: |
 | Alejandro Moreno Luna | 100% |
 | Antonio Muñoz Herrera | 100% |
-| Integrante 3 | — |
+| Joaquin Torrubia Oria | 100% |
 | Integrante 4 | — |
 | Integrante 5 | — |
 
