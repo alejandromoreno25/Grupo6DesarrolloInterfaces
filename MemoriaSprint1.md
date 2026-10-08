@@ -6,7 +6,7 @@
 | Nombre del Integrante | Nota Final (%) |
 | :--- | :---: |
 | Alejandro Moreno Luna | 100% |
-| Integrante 2 | — |
+| Antonio Muñoz Herrera | 100% |
 | Integrante 3 | — |
 | Integrante 4 | — |
 | Integrante 5 | — |
