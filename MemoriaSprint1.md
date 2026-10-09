@@ -8,7 +8,7 @@
 | Alejandro Moreno Luna | 100% |
 | Antonio Muñoz Herrera | 100% |
 | Joaquin Torrubia Oria | 100% |
-| Integrante 4 | — |
+| Víctor Pérez Martínez | 80% |
 | Integrante 5 | — |
 
 # Memoria Técnica y Documentación del Sprint 1 
