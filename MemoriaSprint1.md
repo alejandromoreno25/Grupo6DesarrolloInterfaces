@@ -9,7 +9,7 @@
 | Antonio Muñoz Herrera | 100% |
 | Joaquin Torrubia Oria | 100% |
 | Víctor Pérez Martínez | 80% |
-| Integrante 5 | — |
+| Lucas Moreno | 80% |
 
 # Memoria Técnica y Documentación del Sprint 1 
 # 1. Introducción
