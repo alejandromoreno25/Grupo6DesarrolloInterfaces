@@ -17,7 +17,7 @@ Por eso, el botón que resulte más atractivo a la vista, ya sea por su color, s
 Este enfoque protege a los usuarios de no llevar a cabo acciones de grave peligro dentro de la aplicación por errores o malas indicaciones de los desarrolladores.
 
 ## Mostrar el peligro
-El color rojo es universalmente asociado con peligro, alerta o prohibición. El rojo se utiliza en aplicaciones para generar sensación de urgencia o alerta. [2]
+El color rojo es universalmente asociado con peligro, alerta o prohibición. El rojo se utiliza en aplicaciones para generar sensación de urgencia o alerta. [2] En nuestro caso, no implementaremos acciones de tal gravedad, ya que priorizamos que la interfaz sea amigable.
 
 En diseño de interfaces, este color puede ser una herramienta de gran utilidad para advertir a los usuarios sobre acciones que podrían tener consecuencias importantes o irreversibles, como borrar datos, cerrar una cuenta o cancelar una suscripción. 
 
