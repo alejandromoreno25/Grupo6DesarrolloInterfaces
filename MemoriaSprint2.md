@@ -35,4 +35,4 @@ Los cambios de forma o estilo solo deben aplicarse si tienen una razón funciona
 ### Referencias
 
 * **[1]** Mitto, «Guía de botones UX UI,» *Mitto Agency*, 30 de julio de 2024. [En línea]. Disponible en: https://mitto.agency/guia-de-botones-ux-ui/. [Accedido: 21-oct-2026].
-* **[2]** Yapiko.com. Consultado: el 28 de octubre de 2026. [En línea]. Disponible en: https:
+* **[2]** Yapiko.com. Consultado: el 28 de octubre de 2026. [En línea]. Disponible en: https://yapiko.com/es/blog/psicologia-del-color-en-el-diseno-de-interfaces-moviles/. [Accedido: 28-oct-2026].
