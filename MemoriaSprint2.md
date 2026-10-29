@@ -32,11 +32,30 @@ Los cambios de forma o estilo solo deben aplicarse si tienen una razón funciona
 
 ---
 
-# Desarrollo de las pantallas de nuestra aplicación y Componentes
+# Desarrollo de las pantallas de nuestra aplicación y Componentes y Flatlaf
 
+## FlatLaf
+FlatLaf es una biblioteca de apariencia visual para aplicaciones de java desarrolladas con Swing. Otorga a la interfaz grafica un diseño plano moderno, limpio e inspiratorio en los entornos visuales actuales(macOS, Windows 11).
+
+La principal diferencia es que Swing es el framework original de Java para crear interfaces gráficas, mientras que FlatLaf es una biblioteca externa que moderniza el aspecto visual (Look and Feel) de Swing.
+
+Aqui una tabla con las diferencias claves.
+
+| Característica | Swing (Por defecto) | FlatLaf (Flat Look and Feel) |
+| ----- | ----- | ----- |
+| **Naturaleza** | Framework base e integrado en el JDK. | Biblioteca externa (código abierto). |
+| **Diseño** | Antiguo, basado en los estilos de los años 2000 (Metal, Nimbus). | Moderno, limpio, plano y minimalista (estilo IntelliJ IDEA). |
+| **Soporte HiDPI** | Limitado o inconsistente en pantallas 4K/modernas. | **Excelente soporte nativo para pantallas de alta resolución**. |
+| **Modo Oscuro** | No incluye temas oscuros modernos por defecto. | Incluye variantes **Dark** (Oscuro) y **Light** (Claro) listas para usar. |
+| **Personalización** | Compleja y requiere reescribir muchos componentes. | Muy sencilla mediante archivos de propiedades y temas personalizados. |
+
+Para implementar FlatLaf en Swing simplemente hay que importar la biblioteca.
+
+FlatLaf cuenta con características avanzadas que la convierten en la biblioteca líder para modernizar Java Swing.
+Pero finalmente tras investigar, no usaremos FlatLaf ya que tenemos problemas al importar la librería. Usaremos solo y exclusivamente Swing.
+
+## Desarrollo de las pantallas de nuestra aplicación y Componentes
 Nuestra aplicación **LazyTrip** va a estar dividida en diferentes pantallas con diferentes componentes. Antes de identificar métodos, clases o atributos, vamos a explicar cada ventana y sus componentes, ya que nos ayudará a realizar el diagrama UML posteriormente.
-
----
 
 ## PANTALLA 1: Inicio / Bienvenida
 
