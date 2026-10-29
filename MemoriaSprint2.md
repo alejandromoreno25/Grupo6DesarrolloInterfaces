@@ -227,7 +227,7 @@ Para implementar FlatLaf en Swing simplemente hay que importar la biblioteca.
 FlatLaf cuenta con características avanzadas que la convierten en la biblioteca líder para modernizar Java Swing.
 Pero finalmente tras investigar, no usaremos FlatLaf ya que tenemos problemas al importar la librería. Usaremos solo y exclusivamente Swing.
 
-## 6.2 Desarrollo de las pantallas de nuestra aplicación y Componentes
+### 6.2 Desarrollo de las pantallas de nuestra aplicación y Componentes
 Nuestra aplicación **LazyTrip** va a estar dividida en diferentes pantallas con diferentes componentes. Antes de identificar métodos, clases o atributos, vamos a explicar cada ventana y sus componentes, ya que nos ayudará a realizar el diagrama UML posteriormente.
 
 ### PANTALLA 1: Inicio / Bienvenida
