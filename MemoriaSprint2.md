@@ -416,7 +416,7 @@ La secuencia de control determina lo que el usuario puede hacer en cada momento 
 * En "Mis viajes", el usuario puede ver la lista de sus itinerarios creados y pulsar en uno para abrir su resumen completo.
 * En la galería, puede pulsar el botón de subir foto para abrir el explorador de archivos de su ordenador, seleccionar imágenes y dejarlas guardadas asociadas a cada día del viaje.
 
-## 8. Cronogramas de Ejecución
+## 8. Cronogramas de Ejecución (Sprint backlog)
 
 ### 8.1 Fases y tareas del Sprint 
 | Fase / Etapa | ID Tarea | Tarea | Duración Estimada | A Entregar: |
@@ -432,6 +432,8 @@ La secuencia de control determina lo que el usuario puede hacer en cada momento 
 | **5. Documentación** | **T5.1** | Ajustes finales y consolidación de la documentación | 1 día | Memoria técnica final y repositorio actualizado |
 
 ## 8.2 Diagrama de Gantt
+
+
 
 ### 9.Referencias
 
