@@ -3,15 +3,6 @@
 
 ## 1. Usabilidad y accesibilidad: características, pautas y estándares.
 
-## 2. Medidas de usabilidad y accesibilidad; herramientas de auditoría.
-
-## 3. Seguimiento, modificación y documentación de los esquemas.
-
-## 4. Diseño y Jerarquía de Botones en UX/UI
-
-
-### 1. Usabilidad y accesibilidad: características, pautas y estándares
-
 ### 1.1 Usabilidad
 
 La norma ISO 9241-11 define la usabilidad como un producto que puede ser usado por unos usuarios concretos para conseguir unos objetivos concretos con eficacia, eficiencia y satisfacción dentro de un contexto [1].
@@ -104,7 +95,7 @@ Nos basamos en los siguientes estándares y normas:
 Real Decreto 1112/2018 [13] y el Reglamento de Accesibilidad Europea [11].
 
 
-## 2. Medidas de usabilidad y accesibilidad; herramientas de auditoría
+## 2. Medidas de usabilidad y accesibilidad; herramientas de auditoría.
 
 ### 2.1 Medidas de usabilidad
 
@@ -145,9 +136,9 @@ Tras revisar los mockups de LazyTrip según los criterios de conformidad de las 
 
 
 
+## 3. Seguimiento, modificación y documentación de los esquemas.
 
-
-
+## 4. Diseño y Jerarquía de Botones en UX/UI
 
 ### 4.1 Grupo de botones
 Cuando diseñamos un grupo de botones, es crucial que exista una jerarquía clara y visible entre ellos, de forma que se distingan bien las funciones de cada botón que se vaya a implementar en la aplicación. 
