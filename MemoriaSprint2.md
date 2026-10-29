@@ -4,7 +4,7 @@
 ## 1. Usabilidad y accesibilidad: características, pautas y estándares.
 
 ### 1.1 Usabilidad
-
+---
 La norma ISO 9241-11 define la usabilidad como un producto que puede ser usado por unos usuarios concretos para conseguir unos objetivos concretos con eficacia, eficiencia y satisfacción dentro de un contexto [1].
 
 Aplicado a LazyTrip, esto significa:
@@ -44,7 +44,7 @@ Para el diseño de LazyTrip seguimos los 10 principios de usabilidad de Jakob Ni
 
 
 ### 1.2 Accesibilidad
-
+---
 La accesibilidad es el conjunto de prácticas, técnicas y principios que permiten que una aplicación sea usable por cualquier persona, sin importar sus capacidades [4]. Es decir, la accesibilidad busca que la aplicación la pueda usar cualquier persona.
 
 #### 1.2.1 Principios de accesibilidad (WCAG)
@@ -77,7 +77,7 @@ A partir de estos cuatro principios [4][5], en LazyTrip aplicaremos las siguient
 
 
 ### 1.3 Estándares y normativa de referencia
-
+---
 Nos basamos en los siguientes estándares y normas:
 
 **WCAG 2.2 (W3C) [6].** Son las pautas internacionales de accesibilidad digital y establecen tres niveles de cumplimiento: A, AA y AAA. Nuestro objetivo es alcanzar el nivel AA, que es el que exige la normativa europea. Aunque están pensadas para la web, también se aplican a aplicaciones de escritorio y móviles.
@@ -98,7 +98,7 @@ Real Decreto 1112/2018 [13] y el Reglamento de Accesibilidad Europea [11].
 ## 2. Medidas de usabilidad y accesibilidad; herramientas de auditoría.
 
 ### 2.1 Medidas de usabilidad
-
+---
 Siguiendo la norma ISO 9241-11 [8], medimos la usabilidad de LazyTrip a través de la eficacia, la eficiencia y la satisfacción.
 
 **Eficacia.** Mide si los usuarios consiguen completar las tareas. Para ello calcularemos la tasa de éxito, es decir, el porcentaje de usuarios que completan una tarea sin ayuda, con el objetivo de que al menos el 90 % lo consiga. También contaremos los errores cometidos en cada tarea, como pulsar un botón equivocado o introducir un dato inválido, y buscamos que no haya más de un error por tarea.
@@ -108,7 +108,7 @@ Siguiendo la norma ISO 9241-11 [8], medimos la usabilidad de LazyTrip a través 
 **Satisfacción.** Mide si el uso de la aplicación resulta agradable. Para evaluarla utilizaremos un cuestionario para conocer su nivel de satisfacción.
 
 ### 2.2 Medidas de accesibilidad que cumple LazyTrip
-
+---
 Tras revisar los mockups de LazyTrip según los criterios de conformidad de las WCAG 2.2 [6][14], hemos comprobado que la aplicación ya cumple las siguientes medidas de accesibilidad:
 
 **Títulos descriptivos (2.4.2 y 2.4.6 – Nivel A y AA).** Cada pantalla tiene un título que explica claramente para qué sirve, como "¿Qué quieres hacer hoy?", "Elige cualquier destino", "Presupuesto y estilo" o "Alojamiento en Lisboa".
@@ -130,11 +130,6 @@ Tras revisar los mockups de LazyTrip según los criterios de conformidad de las 
 **Información no transmitida solo con color (1.4.1 – Nivel A), cumplido en parte.** Las etiquetas de los alojamientos ("Mejor equilibrio", "Mejor ubicación" y "Más comodidad") son texto, la valoración aparece con número ("★ 9.1") y el presupuesto restante se muestra en cifras. Sin embargo, los botones de tipo de viaje y las pestañas todavía no indican de forma clara cuál está seleccionado.
 
 **Contraste del texto (1.4.3 – Nivel AA).** Los elementos principales tienen un contraste adecuado, como el botón "Iniciar sesión", el importe del presupuesto, el título del destino, los nombres de los hoteles o el recuadro de presupuesto diario.
-
-
-
-
-
 
 ## 3. Seguimiento, modificación y documentación de los esquemas.
 
@@ -191,6 +186,7 @@ Los cambios de forma o estilo solo deben aplicarse si tienen una razón funciona
   - **Placeholders e Inputs:** Mayúsculas para el *label* del campo y texto estándar o atenuado en el interior de las cajas de entrada.
 
 ### 5.3 Iconos y Elementos Gráficos
+---
 - **Logotipo / Identidad Visual:** Icono ilustrado circular en la esquina superior izquierda con motivos de viaje (globo terráqueo, brújula, avión o hamaca).
 - **Símbolos e Indicadores:**
   - **Flechas de Flujo:** Indicadores simples de dirección textual (como `-->`, `-->`, `<-`) en botones y enlaces de retroceso.
@@ -211,6 +207,7 @@ Los cambios de forma o estilo solo deben aplicarse si tienen una razón funciona
 ## 6. Desarrollo de las pantallas de nuestra aplicación y Componentes y Flatlaf
 
 ## 6.1 FlatLaf
+---
 FlatLaf es una biblioteca de apariencia visual para aplicaciones de java desarrolladas con Swing. Otorga a la interfaz grafica un diseño plano moderno, limpio e inspiratorio en los entornos visuales actuales(macOS, Windows 11).
 
 La principal diferencia es que Swing es el framework original de Java para crear interfaces gráficas, mientras que FlatLaf es una biblioteca externa que moderniza el aspecto visual (Look and Feel) de Swing.
