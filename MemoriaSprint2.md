@@ -427,6 +427,21 @@ La secuencia de control determina lo que el usuario puede hacer en cada momento 
 
 ## 8. Cronogramas de Ejecución
 
+### 8.1 Fases y tareas del Sprint 
+| Fase / Etapa | ID Tarea | Tarea | Duración Estimada | A Entregar: |
+| :--- | :---: | :--- | :---: | :--- |
+| **1. Análisis** | **T1.1** | Usabilidad y accesibilidad: características, pautas y estándares | 2 días | Documento de requisitos de accesibilidad y contraste|
+| | **T1.2** | Medidas de usabilidad y accesibilidad; herramientas de auditoría | 2 días | Informe de métricas y herramientas de auditoría |
+| **2. Diseño y Prototipado** | **T2.1** | Seguimiento, modificación y documentación de esquemas y maquetas | 5 días | Prototipos de Java Swing |
+| | **T2.2** | Pautas de diseño estructural: menús, ventanas, cuadros de diálogo, atajos de teclado | 3 días | Guía de diseño estructural y mapa de atajos de teclado |
+| | **T2.3** | Pautas de aspecto: colores, fuentes, iconos, distribución | 1 día | Manual de estilo visual y guía de aspecto de la app |
+| **3. Desarrollo y Lógica** | **T3.1** | Pautas para el desarrollo de componentes visuales interactivos | 4 días | Diseño de componentes UI y tabla de eventos y persistencia |
+| | **T3.2** | Pautas de la secuencia de control de la aplicación[cite: 1] | 1 día | Flujo de control |
+| **4. Pruebas y Auditoría** | **T4.1** | Ejecución de pruebas y auditorías de accesibilidad | 2 días | Informe de pruebas de usabilidad y accesibilidad |
+| **5. Documentación** | **T5.1** | Ajustes finales y consolidación de la documentación | 1 día | Memoria técnica final y repositorio actualizado |
+
+## 8.2 Diagrama de Gantt
+
 ### 9.Referencias
 
 * **[1]** Mitto, «Guía de botones UX UI,» *Mitto Agency*, 30 de julio de 2024. [En línea]. Disponible en: https://mitto.agency/guia-de-botones-ux-ui/. [Accedido: 21-oct-2026].
