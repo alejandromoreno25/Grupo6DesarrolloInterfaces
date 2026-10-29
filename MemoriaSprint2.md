@@ -133,38 +133,95 @@ Tras revisar los mockups de LazyTrip según los criterios de conformidad de las 
 
 ## 3. Seguimiento, modificación y documentación de los esquemas.
 
-**Login**
+## 3. Seguimiento, modificación y documentación de los esquemas
 
-<img width="538" height="414" alt="Captura de pantalla 2026-10-28 184705" src="https://github.com/user-attachments/assets/acd9d913-1aba-45ae-860d-f2d36162fd52" />
+ interfaz de usuario en swing 
 
-**Inicio**
+---
 
-<img width="1320" height="670" alt="image" src="https://github.com/user-attachments/assets/d8baa43b-61de-4b45-a7b5-be96436d0d62" />
+### Login
+Pantalla de acceso inicial para la autenticación segura de los usuarios en la plataforma.
 
-**Configuración viaje**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/acd9d913-1aba-45ae-860d-f2d36162fd52" width="100%" alt="Pantalla de Login" />
+</div>
 
-<img width="1272" height="929" alt="image" src="https://github.com/user-attachments/assets/1e51d252-32db-4e2c-a2ab-6142e759930a" />
+---
 
-<img width="1252" height="814" alt="image" src="https://github.com/user-attachments/assets/0d0fa242-f5b2-4724-9562-3a63f0581af3" />
+### Inicio
+Panel principal de control que ofrece acceso directo a las funcionalidades clave y resumen rápido del estado.
 
-<img width="1165" height="833" alt="image" src="https://github.com/user-attachments/assets/b7c9ce1f-83bb-478e-a555-bd06c50cc7d2" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d8baa43b-61de-4b45-a7b5-be96436d0d62" width="100%" alt="Pantalla de Inicio" />
+</div>
 
-**PANTALLA ITINERARIOS**
+---
 
-<img width="1630" height="854" alt="image" src="https://github.com/user-attachments/assets/6425368d-056f-45e3-b039-df472dc5be91" />
-<img width="1473" height="861" alt="image" src="https://github.com/user-attachments/assets/245f9c01-ff9f-4170-a7fd-a2e64f0070a9" />
+### Configuración del Viaje
+Flujo paso a paso diseñado para definir parámetros, fechas, presupuestos y preferencias del trayecto.
 
-**PANTALLA MIS VIAJES**
+> **Paso 1: Selección inicial**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1e51d252-32db-4e2c-a2ab-6142e759930a" width="100%" alt="Configuración de viaje - Paso 1" />
+</div>
 
-<img width="1663" height="540" alt="image" src="https://github.com/user-attachments/assets/efa54fd6-c645-49f0-b704-688cbfb55f9d" />
+<br />
 
-**PANTALLA RESUMEN**
+> **Paso 2: fechas y presupuesto**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0d0fa242-f5b2-4724-9562-3a63f0581af3" width="100%" alt="Configuración de viaje - Paso 2" />
+</div>
 
-<img width="1401" height="854" alt="image" src="https://github.com/user-attachments/assets/7e47eb8a-3281-44b6-8bf8-a37bc7b92366" />
+<br />
 
-**PANTALLA FOTOS**
+> **Paso 3: Confirmación de preferencias**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b7c9ce1f-83bb-478e-a555-bd06c50cc7d2" width="100%" alt="Configuración de viaje - Paso 3" />
+</div>
 
-<img width="1467" height="1003" alt="image" src="https://github.com/user-attachments/assets/5138fce5-bf2a-4aae-bddf-76743815777e" />
+---
+
+### Itinerarios
+Visualización e interactividad con los mapas y rutas generadas para el viaje.
+
+> **Vista general de la ruta**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6425368d-056f-45e3-b039-df472dc5be91" width="100%" alt="Itinerarios - Vista General" />
+</div>
+
+<br />
+
+> **Detalle diario y actividades**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/245f9c01-ff9f-4170-a7fd-a2e64f0070a9" width="100%" alt="Itinerarios - Detalle por Día" />
+</div>
+
+---
+
+### Mis Viajes
+Gestor central donde se recopilan y organizan todos los viajes guardados y programados.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/efa54fd6-c645-49f0-b704-688cbfb55f9d" width="100%" alt="Pantalla Mis Viajes" />
+</div>
+
+---
+
+### Resumen
+Consolidación visual de toda la información clave del itinerario en una única pantalla.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7e47eb8a-3281-44b6-8bf8-a37bc7b92366" width="100%" alt="Pantalla Resumen" />
+</div>
+
+---
+
+### Galería de Fotos
+Módulo para la carga, previsualización y gestión de recuerdos fotográficos del viaje.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5138fce5-bf2a-4aae-bddf-76743815777e" width="100%" alt="Pantalla Galería de Fotos" />
+</div>
 
 ## 4. Diseño y Jerarquía de Botones en UX/UI
 
