@@ -10,7 +10,7 @@
 ## 4. Diseño y Jerarquía de Botones en UX/UI
 
 
-## 1. Usabilidad y accesibilidad: características, pautas y estándares
+### 1. Usabilidad y accesibilidad: características, pautas y estándares
 
 ### 1.1 Usabilidad
 
