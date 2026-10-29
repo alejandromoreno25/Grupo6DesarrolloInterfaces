@@ -19,3 +19,6 @@
 <img width="1630" height="854" alt="image" src="https://github.com/user-attachments/assets/6425368d-056f-45e3-b039-df472dc5be91" />
 <img width="1473" height="861" alt="image" src="https://github.com/user-attachments/assets/245f9c01-ff9f-4170-a7fd-a2e64f0070a9" />
 
+**PANTALLA MIS VIAJES**
+
+<img width="1663" height="540" alt="image" src="https://github.com/user-attachments/assets/efa54fd6-c645-49f0-b704-688cbfb55f9d" />
