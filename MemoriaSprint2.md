@@ -206,7 +206,7 @@ Los cambios de forma o estilo solo deben aplicarse si tienen una razón funciona
 
 ## 6. Desarrollo de las pantallas de nuestra aplicación y Componentes y Flatlaf
 
-## 6.1 FlatLaf
+### 6.1 FlatLaf
 ---
 FlatLaf es una biblioteca de apariencia visual para aplicaciones de java desarrolladas con Swing. Otorga a la interfaz grafica un diseño plano moderno, limpio e inspiratorio en los entornos visuales actuales(macOS, Windows 11).
 
@@ -230,7 +230,7 @@ Pero finalmente tras investigar, no usaremos FlatLaf ya que tenemos problemas al
 ## 6.2 Desarrollo de las pantallas de nuestra aplicación y Componentes
 Nuestra aplicación **LazyTrip** va a estar dividida en diferentes pantallas con diferentes componentes. Antes de identificar métodos, clases o atributos, vamos a explicar cada ventana y sus componentes, ya que nos ayudará a realizar el diagrama UML posteriormente.
 
-## PANTALLA 1: Inicio / Bienvenida
+### PANTALLA 1: Inicio / Bienvenida
 
 En la primera pantalla encontramos un título centrado en la zona superior, acompañado por una pequeña barra de navegación que se sitúa justo por encima de él y que contiene el logo de nuestra aplicación junto a un botón que, al ser pulsado, despliega una pequeña ventana emergente para el inicio de sesión. Por debajo de este menú de cabecera, la pantalla se organiza en dos grandes contenedores. El primero de ellos está destinado a la creación de un nuevo viaje y permanece accesible para cualquier usuario, mientras que el segundo contenedor sirve para gestionar los viajes guardados y queda reservado únicamente para aquellos usuarios que hayan iniciado sesión en la plataforma.
 
@@ -246,7 +246,7 @@ En la primera pantalla encontramos un título centrado en la zona superior, acom
 
 ---
 
-## PANTALLA 2: Elegir Destino y Fechas
+### PANTALLA 2: Elegir Destino y Fechas
 
 Al hacer clic en el contenedor de nuevo viaje pasamos a la segunda pantalla, la cual mantiene estática en la parte superior la misma barra de navegación con el menú y los botones que nos acompañará a lo largo de toda la aplicación. En el centro de la interfaz se ubica un contenedor principal que dispone de una caja de texto para escribir la ciudad que queremos visitar, seguida de varios campos dedicados a introducir la fecha de llegada y la fecha de salida con sus respectivas horas. Asimismo, incluye un menú desplegable que permite seleccionar el número de integrantes del grupo en un rango que va desde 1 viajero hasta 10 viajeros. Finalmente, la pantalla incorpora en su parte inferior un botón para continuar y avanzar a la siguiente página, así como un botón para volver atrás y regresar al inicio.
 
@@ -261,7 +261,7 @@ Al hacer clic en el contenedor de nuevo viaje pasamos a la segunda pantalla, la 
 
 ---
 
-## PANTALLA 3: Presupuesto y Estilo de Viaje
+### PANTALLA 3: Presupuesto y Estilo de Viaje
 
 En la tercera pantalla se conserva el menú estático superior y se presenta un contenedor central diseñado para configurar el presupuesto y las preferencias de la estancia. El presupuesto se ajusta mediante una línea o barra deslizante interactiva, de modo que cuanto más a la derecha se sitúe el puntero, mayor será el presupuesto asignado por persona. Justo encima de esta barra se encuentra un visor que muestra la cifra en euros y que se va actualizando en tiempo real hacia arriba o hacia abajo según desplacemos el control hacia la derecha o hacia la izquierda. Además de esta barra, el contenedor cuenta con cuatro etiquetas interactivas que funcionan como botones para seleccionar el tipo de viaje deseado entre las opciones de cultura y turismo, fiesta, relax o gastronómico, concluyendo la pantalla con los botones correspondientes para continuar a la siguiente vista o volver a la anterior.
 
@@ -278,7 +278,7 @@ En la tercera pantalla se conserva el menú estático superior y se presenta un 
 
 ---
 
-## PANTALLA 4: Selección de Alojamiento
+### PANTALLA 4: Selección de Alojamiento
 
 La cuarta pantalla muestra en su parte superior el título de alojamientos acompañado por el nombre de la ciudad elegida para el viaje. A partir de ahí, la interfaz se distribuye en dos contenedores bien diferenciados. El contenedor de la izquierda alberga una lista vertical que se va cargando a medida que el usuario se desplaza hacia abajo, mostrando las distintas opciones de hospedaje junto a sus precios orientativos. Por su parte, el contenedor de la derecha es de menor tamaño y se actualiza en función del alojamiento que seleccionemos en la lista izquierda, ofreciendo un botón con el enlace hacia la plataforma externa para realizar la reserva y, justo debajo, el botón de continuar para avanzar a la siguiente etapa. En la zona superior de este panel derecho se ubica también un botón para cambiar el destino y las fechas, el cual redirige de nuevo a la segunda pantalla en caso de querer modificar la búsqueda.
 
@@ -293,7 +293,7 @@ La cuarta pantalla muestra en su parte superior el título de alojamientos acomp
 
 ---
 
-## PANTALLA 5: Elaboración del Itinerario
+### PANTALLA 5: Elaboración del Itinerario
 
 En la quinta pantalla encontramos en la parte superior un contenedor con el nombre del destino y, justo debajo, un mapa interactivo que ubica los puntos de interés a medida que se van agregando al plan. En la zona inferior se despliega un catálogo de actividades distribuidas en filas de tres en tres, las cuales se ordenan mostrando en primer lugar aquellas que Google clasifica como más cercanas al estilo de viaje seleccionado anteriormente. Cada actividad dispone de un botón de añadir que la traslada directamente al contenedor ubicado en el centro de la pantalla, donde se genera el itinerario ordenado cronológicamente de la hora más temprana a la más tardía. Encima de este itinerario central se sitúa una serie de pequeños botones horizontales generados según el número de días que dure el viaje, permitiendo que al pulsar sobre el botón del día 2 o del día 3 la pantalla se refresque para mostrar y editar la planificación de esa jornada específica. Para finalizar, la pantalla cuenta con un botón para aceptar y guardar el viaje en el perfil del usuario registrado, junto con otro botón destinado a descargar el itinerario en formato PDF por si no se dispone de cuenta o se prefiere guardar en local.
 
@@ -310,7 +310,7 @@ En la quinta pantalla encontramos en la parte superior un contenedor con el nomb
 
 ---
 
-## PANTALLA 6: Mis Viajes
+### PANTALLA 6: Mis Viajes
 
 A la pantalla de gestión de viajes se accede desde el botón situado junto a la opción de crear viaje en la pantalla principal, siempre que el usuario se haya registrado o haya iniciado sesión previamente. Una vez dentro, la interfaz genera un contenedor independiente por cada itinerario guardado, mostrando el nombre del destino correspondiente y un botón que permite abrir la pantalla con sus detalles, además de incluir un botón general para volver a la ventana anterior. Si el usuario cuenta con varios viajes planificados, sus respectivos contenedores irán apareciendo uno debajo del otro en forma de lista organizada.
 
@@ -324,7 +324,7 @@ A la pantalla de gestión de viajes se accede desde el botón situado junto a la
 
 ---
 
-## PANTALLA 7: Resumen e Información del Viaje
+### PANTALLA 7: Resumen e Información del Viaje
 
 Esta pantalla ofrece un resumen general del viaje seleccionado y sitúa debajo del título superior un menú de navegación que contiene el acceso a la galería y un botón para volver atrás. El cuerpo de la interfaz se organiza en tres contenedores horizontales: el primero a la izquierda muestra las fechas globales de la estancia, el contenedor central recoge la información del alojamiento reservado y el contenedor de la derecha presenta el desglose del presupuesto total. Si dentro del menú superior se presiona el botón de fotos, la aplicación nos dirige inmediatamente a la octava pantalla.
 
@@ -340,7 +340,7 @@ Esta pantalla ofrece un resumen general del viaje seleccionado y sitúa debajo d
 
 ---
 
-## PANTALLA 8: Galería y Subida de Fotos
+### PANTALLA 8: Galería y Subida de Fotos
 
 La última pantalla permite subir y organizar fotografías directamente desde la galería del dispositivo según el día del viaje en el que fueron tomadas. Al igual que ocurría en la ventana del itinerario, la interfaz dispone de una botonera numerada en función de los días de duración del viaje, de manera que al seleccionar un día concreto solo se visualizarán los recuerdos asociados a esa fecha. Si el usuario añade imágenes en el día 1 y posteriormente pulsa el botón del día 2, las fotografías del primer día se ocultarán temporalmente hasta que se vuelva a hacer clic sobre el botón del día 1. La pantalla concluye con el correspondiente botón para regresar a la vista anterior.
 
@@ -355,7 +355,7 @@ La última pantalla permite subir y organizar fotografías directamente desde la
 
 ---
 
-## 6.3 ¿Qué haría un usuario en nuestra aplicación?
+### 6.3 ¿Qué haría un usuario en nuestra aplicación?
 
 1. **Abrir la aplicación y pulsar "Empezar"** en la pantalla de bienvenida para iniciar un nuevo viaje (o iniciar sesión si prefiere identificarse de primeras).
 2. **Elegir el destino, las fechas y la cantidad de viajeros**, escribiendo la ciudad en el buscador inteligente o haciendo clic en una ciudad sugerida.
@@ -368,7 +368,7 @@ La última pantalla permite subir y organizar fotografías directamente desde la
 
 ---
 
-## 6.4 Diseño de métodos, atributos y clases de nuestra aplicación
+### 6.4 Diseño de métodos, atributos y clases de nuestra aplicación
 
 | Tipo de Componente | Nombre de componentes | Propiedades | Evento | Comportamiento | Persistencia |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -424,7 +424,7 @@ La secuencia de control determina lo que el usuario puede hacer en cada momento 
 | | **T2.2** | Pautas de diseño estructural: menús, ventanas, cuadros de diálogo, atajos de teclado | 3 días | Guía de diseño estructural y mapa de atajos de teclado |
 | | **T2.3** | Pautas de aspecto: colores, fuentes, iconos, distribución | 1 día | Manual de estilo visual y guía de aspecto de la app |
 | **3. Desarrollo y Lógica** | **T3.1** | Pautas para el desarrollo de componentes visuales interactivos | 4 días | Diseño de componentes UI y tabla de eventos y persistencia |
-| | **T3.2** | Pautas de la secuencia de control de la aplicación[cite: 1] | 1 día | Flujo de control |
+| | **T3.2** | Pautas de la secuencia de control de la aplicación | 1 día | Flujo de control |
 | **4. Pruebas y Auditoría** | **T4.1** | Ejecución de pruebas y auditorías de accesibilidad | 2 días | Informe de pruebas de usabilidad y accesibilidad |
 | **5. Documentación** | **T5.1** | Ajustes finales y consolidación de la documentación | 1 día | Memoria técnica final y repositorio actualizado |
 
