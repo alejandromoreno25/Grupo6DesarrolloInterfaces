@@ -430,6 +430,7 @@ La secuencia de control determina lo que el usuario puede hacer en cada momento 
 
 ## 8.2 Diagrama de Gantt
 
+![IMAGEN DEL DIAGRAMA ](/assets/DiagramadeGantt.png)
 
 
 ### 9.Referencias
