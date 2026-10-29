@@ -1,3 +1,12 @@
+# Memoria Sprint Número 2 | Sprint Review
+
+
+## 1. Usabilidad y accesibilidad: características, pautas y estándares.
+
+## 2. Medidas de usabilidad y accesibilidad; herramientas de auditoría.
+
+## 3. Seguimiento, modificación y documentación de los esquemas.
+
 ## 4. Diseño y Jerarquía de Botones en UX/UI
 
 ### 4.1 Grupo de botones
@@ -210,6 +219,10 @@ La última pantalla permite subir y organizar fotografías directamente desde la
 | **9. Enlace Web Externa** | Botón Consultar precio y disponibilidad | Botón tipo enlace | Hace clic | Abre tu navegador de internet en la página de Booking | No guarda nada: Solo te lleva a una web externa. |
 | **10. Guardar y Exportar** | Botones Guardar en Perfil y Descargar PDF | Botón con icono de guardado | Hace clic | Guarda el viaje en tu cuenta o descarga el documento PDF | Permanente: Guarda los datos para siempre en la base de datos o en un archivo. |
 | **11. Subir Fotografías** | Botón Subir foto | Botón que abre carpetas | Elige una foto de su PC | Abre el explorador de archivos del PC y sube la foto a la app | Permanente: Guarda la foto o su enlace en la base de datos. |
+
+## 7. Pautas de la secuencia de control de la aplicación.
+
+## 8. Cronogramas de Ejecución
 
 ### 9.Referencias
 
