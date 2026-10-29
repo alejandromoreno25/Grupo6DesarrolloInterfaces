@@ -222,6 +222,33 @@ La última pantalla permite subir y organizar fotografías directamente desde la
 
 ## 7. Pautas de la secuencia de control de la aplicación.
 
+La secuencia de control determina lo que el usuario puede hacer en cada momento y cómo la aplicación responde a sus interacciones en base a las pantallas y componentes del punto 6.
+
+### 1. Inicio y Acceso
+* El usuario puede pulsar en el contenedor de "Nuevo viaje" para empezar a diseñar su itinerario al instante.
+* El usuario puede pulsar en "Mis viajes", pero si no ha iniciado sesión, la aplicación le mostrará una ventana emergente para identificarse antes de dejarle entrar.
+* Puede pulsar el botón de *Login* de la barra superior fija para identificarse sin importar en qué pantalla se encuentre.
+
+### 2. Configuración del Viaje
+* El usuario puede escribir la ciudad de destino, elegir las fechas de llegada y salida con sus respectivas horas, y seleccionar la cantidad de viajeros.
+* Moviendo la barra deslizante a la izquierda o derecha puede cambiar su presupuesto por persona en tiempo real.
+* Puede pulsar sobre los botones de etiquetas para indicar qué tipo de experiencia busca (Cultura, Relax, etc.).
+* Puede pulsar "Continuar" para avanzar o "Atrás" para volver y corregir cualquier dato sin perder lo escrito.
+
+### 3. Selección de Alojamiento
+*  El usuario puede deslizarse por la lista de alojamientos de la izquierda para ver las opciones disponibles.
+* Al pulsar sobre un hotel, puede ver sus datos en el panel derecho y pulsar el botón con el enlace externo para abrir la web de Booking en su navegador.
+*  Si decide modificar las fechas o el destino, puede pulsar el botón "Cambiar destino y fechas" para volver directamente a la Pantalla 2.
+
+### 4. Organización del Itinerario y Días
+* El usuario puede pulsar los botones numerados según los días de viaje para organizar el plan o las fotos de ese día concreto.
+* Al pulsar "Añadir" en las sugerencias, las actividades se colocan automáticamente en la agenda ordenadas por hora y se marcan en el mapa.
+* Al terminar, si está registrado puede pulsar "Guardar en perfil" para conservarlo en su cuenta; si no tiene cuenta, puede pulsar "Guardar en PDF" para descargarlo localmente.
+
+### 5. Consulta y Recuerdos
+* En "Mis viajes", el usuario puede ver la lista de sus itinerarios creados y pulsar en uno para abrir su resumen completo.
+* En la galería, puede pulsar el botón de subir foto para abrir el explorador de archivos de su ordenador, seleccionar imágenes y dejarlas guardadas asociadas a cada día del viaje.
+
 ## 8. Cronogramas de Ejecución
 
 ### 9.Referencias
