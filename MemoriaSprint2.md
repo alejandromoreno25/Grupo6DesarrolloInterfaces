@@ -428,7 +428,7 @@ La secuencia de control determina lo que el usuario puede hacer en cada momento 
 | **4. Pruebas y Auditoría** | **T4.1** | Ejecución de pruebas y auditorías de accesibilidad | 2 días | Informe de pruebas de usabilidad y accesibilidad |
 | **5. Documentación** | **T5.1** | Ajustes finales y consolidación de la documentación | 1 día | Memoria técnica final y repositorio actualizado |
 
-## 8.2 Diagrama de Gantt
+### 8.2 Diagrama de Gantt
 
 ![IMAGEN DEL DIAGRAMA ](/assets/DiagramadeGantt.png)
 
