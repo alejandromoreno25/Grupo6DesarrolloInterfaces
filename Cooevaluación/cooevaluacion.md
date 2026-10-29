@@ -13,7 +13,7 @@
 | Nombre del Integrante | Nota Final (%) |
 | :--- | :---: |
 | Alejandro Moreno Luna |X|
-| Antonio Muñoz Herrera | X|
+| Antonio Muñoz Herrera | 100% |
 | Joaquin Torrubia Oria | X |
 | Víctor Pérez Martínez |X |
 | Lucas Moreno | X|
