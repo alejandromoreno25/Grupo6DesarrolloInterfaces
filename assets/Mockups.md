@@ -26,3 +26,7 @@
 **PANTALLA RESUMEN**
 
 <img width="1401" height="854" alt="image" src="https://github.com/user-attachments/assets/7e47eb8a-3281-44b6-8bf8-a37bc7b92366" />
+
+**PANTALLA FOTOS**
+
+<img width="1467" height="1003" alt="image" src="https://github.com/user-attachments/assets/5138fce5-bf2a-4aae-bddf-76743815777e" />
