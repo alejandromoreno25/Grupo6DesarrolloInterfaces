@@ -41,6 +41,42 @@ Los cambios de forma o estilo solo deben aplicarse si tienen una razón funciona
 
 ---
 
+## 5. DISEÑO UI Y MAQUETACIÓN GRÁFICA
+
+### 5.1 Colores
+- **Fondo Principal / Base:** Tono azul clarísimo muy suave (mantiene una apariencia limpia e higiénica para el fondo de pantalla y con buen contraste con los demás colores).
+- **Fondo de Contenedores / Tarjetas:** Blanco puro para generar contraste, delimitación y legibilidad sobre la base.
+- **Azul Primario (Acciones Principales y Acentuación):** Azul eléctrico/intenso empleado en botones de llamado a la acción (*Iniciar sesión*, *Comprobar en Booking*) y bloques destacados.
+- **Azul Secundario (Destacados y Tarjetas de Resumen):** Azul marino/petróleo oscuro utilizado en tarjetas de selección lateral, títulos principales y botones de acción secundaria (*+ Añadir*, botones de paso).
+- **Verde Agua / Turquesa:** Utilizado para resaltar badges de recomendación (*Mejor equilibrio*, *Mejor ubicación*), valores monetarios clave y botones de confirmación principal (*Elegir y crear itinerario*).
+- **Gris Neutro y Suave:** Empleado en bordes de inputs, etiquetas secundarias, marcadores de rango, campos de formulario y líneas divisorias. [3]
+
+### 5.2 Fuentes
+- **Tipografía / Familia:** Sans-Serif de trazo limpio, legible y moderno. [4]
+- **Jerarquía Tipográfica:**
+  - **Títulos de Sección / Pregunta:** Sans-Serif con peso de fuente *Bold* o *Extra Bold*, tamaño grande y color azul oscuro.
+  - **Etiquetas Superiores (Overlines / Categories):** Texto en mayúsculas sostenidas, de menor tamaño, en tono turquesa/verde agua o gris neutro.
+  - **Cuerpo de Texto / Descripciones:** Peso regular, tamaño medio, color gris oscuro o neutro para garantizar alta legibilidad.
+  - **Placeholders e Inputs:** Mayúsculas para el *label* del campo y texto estándar o atenuado en el interior de las cajas de entrada.
+
+### 5.3 Iconos y Elementos Gráficos
+- **Logotipo / Identidad Visual:** Icono ilustrado circular en la esquina superior izquierda con motivos de viaje (globo terráqueo, brújula, avión o hamaca).
+- **Símbolos e Indicadores:**
+  - **Flechas de Flujo:** Indicadores simples de dirección textual (como `-->`, `-->`, `<-`) en botones y enlaces de retroceso.
+  - **Iconos de Valoración / Estrellas:** Puntuaciones visuales acompañadas del número de valoración (ej. `★ 9.1`, `★ 4.9`) en esquinas superiores de tarjetas.
+  - **Indicadores de Lista:** Círculos delimitadores en la cronología o itinerario para marcar horas y eventos.
+  - **Iconos de Enlace Exterior:** Símbolo discreto de flecha hacia arriba a la derecha (ej. *Google Maps ↗*).
+
+### 5.4 Distribución (Layout)
+- **Encabezado (Header):** Fijo o limpio en la parte superior, con el logotipo posicionado a la izquierda y el estado/perfil de usuario (*Hola, Usuario*) alineado a la derecha.
+- **Estructura Modular / Cajas (Cards):** Los contenidos principales y formularios se organizan dentro de contenedores o tarjetas blancas bien definidas sobre el fondo claro.
+- **Disposición en Cuadrícula (Grid) y Columnas:**
+  - **Cuadrículas de Opciones / Tarjetas:** Distribución horizontal balanceada en 2 o 3 columnas para seleccionar opciones, tipos de viaje o tarjetas de recomendaciones.
+  - **Columna Lateral (Sidebar):** En pantallas con resultados, disposición de 2 columnas donde la columna izquierda muestra los resultados y la derecha un resumen fijo de la selección.
+- **Alineación y Espaciado:** Centrado de contenido principal en pantallas de wizards/pasos con un espacio visual holgado (*padding*) alrededor de los elementos para transmitir una experiencia limpia y libre de saturación.
+
+---
+
 ## 6. Desarrollo de las pantallas de nuestra aplicación y Componentes y Flatlaf
 
 ## 6.1 FlatLaf
@@ -255,3 +291,5 @@ La secuencia de control determina lo que el usuario puede hacer en cada momento 
 
 * **[1]** Mitto, «Guía de botones UX UI,» *Mitto Agency*, 30 de julio de 2024. [En línea]. Disponible en: https://mitto.agency/guia-de-botones-ux-ui/. [Accedido: 21-oct-2026].
 * **[2]** Yapiko.com. Consultado: el 28 de octubre de 2026. [En línea]. Disponible en: https://yapiko.com/es/blog/psicologia-del-color-en-el-diseno-de-interfaces-moviles/. [Accedido: 28-oct-2026].
+* **[3]** E. E. de Empresa, “La psicología del color y sus aplicaciones”, Escuela Europea de Empresa. Consultado: el 29 de octubre de 2026. [En línea]. Disponible en: https://escuelaeuropeadeempresa.eu/la-psicologia-del-color-y-sus-aplicaciones/
+* **[4]** O. Velarde, “La guía definitiva de la psicología de la tipografía”, Visme Blog. Consultado: el 29 de octubre de 2026. [En línea]. Disponible en: https://visme.co/blog/es/psicologia-de-la-tipografia/
