@@ -9,6 +9,146 @@
 
 ## 4. Diseño y Jerarquía de Botones en UX/UI
 
+
+## 1. Usabilidad y accesibilidad: características, pautas y estándares
+
+### 1.1 Usabilidad
+
+La norma ISO 9241-11 define la usabilidad como un producto que puede ser usado por unos usuarios concretos para conseguir unos objetivos concretos con eficacia, eficiencia y satisfacción dentro de un contexto [1].
+
+Aplicado a LazyTrip, esto significa:
+- **Eficacia:** un usuario introduce destino, fechas y presupuesto y obtiene el itinerario sin equivocarse.
+- **Eficiencia:** lo consigue en pocos pasos, siguiendo la regla de los 3 clics.
+- **Satisfacción:** tiene la sensación de que la aplicación le ha ahorrado trabajo.
+
+#### 1.1.1 Características de una interfaz usable
+
+Según Jakob Nielsen, una interfaz es usable cuando cumple cinco características básicas [2]:
+
+**Facilidad de aprendizaje.** El usuario debe entender cómo funciona la aplicación desde la primera vez que la usa, sin necesidad de un manual. En LazyTrip lo conseguimos en tres pasos: primero se introduce el presupuesto, después se elige el alojamiento y, por último, se genera el itinerario. Así el usuario siempre sabe en qué punto del proceso está.
+
+**Eficiencia.** Una vez que el usuario ha aprendido a usar la aplicación, debe poder realizar las tareas de forma rápida. Por eso en LazyTrip aplicamos la regla de los 3 clics definida en el Sprint 1, de forma que el itinerario se genere con un máximo de tres clics.
+
+**Memorabilidad.** Si el usuario deja de usar la aplicación durante un tiempo, al volver debe recordar cómo funciona sin tener que aprender de nuevo. Para ello, LazyTrip mantiene la misma barra de navegación, los mismos iconos y la misma distribución en todas las pantallas.
+
+**Prevención y gestión de errores.** La aplicación debe evitar que el usuario cometa errores y, si los comete, ayudarle a corregirlos. Por ello, LazyTrip evita fechas mal escritas o imposibles y muestra un aviso claro cuando el presupuesto introducido no es suficiente para el viaje.
+
+**Satisfacción.** El uso de la aplicación debe resultar agradable para el usuario. LazyTrip tiene una interfaz minimalista y moderna con la librería FlatLaf, lo que hace que la información sea fácil de leer y visualmente atractiva.
+
+#### 1.1.2 Pautas de usabilidad: principios de Jakob Nielsen
+
+Para el diseño de LazyTrip seguimos los 10 principios de usabilidad de Jakob Nielsen [3]:
+
+- **Visibilidad del estado del sistema:** evitar pantallas en blanco durante la generación de itinerarios mediante *skeleton screens* (feedback).
+- **Relación entre el sistema y el mundo real:** lenguaje cotidiano del usuario.
+- **Control y libertad del usuario:** opciones para deshacer o cambiar de pantalla con total libertad en el flujo 1. Presupuesto, 2. Alojamiento, 3. Generar itinerario.
+- **Consistencia y estándares:** establecer convenciones lógicas.
+- **Prevención de errores:** proporcionar asistencia a los usuarios para que encuentren lo que están buscando. Ejemplo: buscador.
+- **Reconocer antes que recordar:** el destino, las fechas y el presupuesto se mantienen visibles en la cabecera del viaje.
+- **Flexibilidad y eficiencia de uso:** atajos de teclado para usuarios avanzados sin complicar al principiante.
+- **Diseño estético y minimalista:** solo se muestra lo necesario en cada pantalla.
+- **Ayudar a reconocer, diagnosticar y recuperarse de errores:** mensajes cortos que dicen qué ha pasado y cómo solucionarlo.
+- **Ayuda y documentación:** *tooltips* en los botones y un pequeño tutorial la primera vez que se abre la aplicación.
+
+
+
+### 1.2 Accesibilidad
+
+La accesibilidad es el conjunto de prácticas, técnicas y principios que permiten que una aplicación sea usable por cualquier persona, sin importar sus capacidades [4]. Es decir, la accesibilidad busca que la aplicación la pueda usar cualquier persona.
+
+#### 1.2.1 Principios de accesibilidad (WCAG)
+
+Las WCAG se basan en cuatro principios [4][5]:
+
+- **Perceptible:** contraste adecuado entre el texto y el fondo para mejorar la legibilidad.
+- **Operable:** navegación clara y predecible.
+- **Comprensible:** los textos deben ser claros y sencillos.
+- **Robusto:** código limpio y soportado por tecnologías estables para garantizar la compatibilidad a largo plazo con los dispositivos.
+
+#### 1.2.2 Pautas de accesibilidad aplicadas en LazyTrip
+
+A partir de estos cuatro principios [4][5], en LazyTrip aplicaremos las siguientes pautas:
+
+**Pautas visuales (Perceptible):**
+- Contraste mínimo de 4.5:1 para texto normal y 3:1 para texto grande [6].
+- Fuente sans-serif legible, con un tamaño mínimo de 14 px.
+
+**Pautas de interacción (Operable):**
+- Sin límites de tiempo que obliguen al usuario a actuar rápido.
+
+**Pautas de contenido (Comprensible):**
+- Un botón nunca cambia de pantalla sin que el usuario lo espere.
+- Lectura fácil: frases cortas y vocabulario cotidiano.
+
+**Pautas técnicas (Robusto):**
+- Probar la aplicación con un lector de pantalla mediante Java Access Bridge [7].
+
+
+
+### 1.3 Estándares y normativa de referencia
+
+Nos basamos en los siguientes estándares y normas:
+
+**WCAG 2.2 (W3C) [6].** Son las pautas internacionales de accesibilidad digital y establecen tres niveles de cumplimiento: A, AA y AAA. Nuestro objetivo es alcanzar el nivel AA, que es el que exige la normativa europea. Aunque están pensadas para la web, también se aplican a aplicaciones de escritorio y móviles.
+
+**ISO 9241-11:2018 [8].** Define qué es la usabilidad y nos sirve de base para medir la eficacia, la eficiencia y la satisfacción de la aplicación.
+
+**ISO 9241-210:2019 [9].** Establece el diseño centrado en el usuario, que justifica nuestro proceso de trabajo: encuestas, prototipo, pruebas con usuarios y rediseño.
+
+**UNE-EN 301 549 [10].** Es la norma europea de accesibilidad para productos TIC e indica cómo aplicar los criterios de las WCAG al software de escritorio y a las apps móviles.
+
+**Acta Europea de Accesibilidad (Directiva (UE) 2019/882) y Ley 11/2023 [11][12].** Obligan desde el 28 de junio de 2025 a que ciertos servicios digitales sean accesibles, como el comercio electrónico o el transporte de viajeros. Si LazyTrip llegara a vender reservas le afectaría, por eso la diseñamos accesible desde el principio.
+
+#### 1.3.1 Legislación
+
+Real Decreto 1112/2018 [13] y el Reglamento de Accesibilidad Europea [11].
+
+
+## 2. Medidas de usabilidad y accesibilidad; herramientas de auditoría
+
+### 2.1 Medidas de usabilidad
+
+Siguiendo la norma ISO 9241-11 [8], medimos la usabilidad de LazyTrip a través de la eficacia, la eficiencia y la satisfacción.
+
+**Eficacia.** Mide si los usuarios consiguen completar las tareas. Para ello calcularemos la tasa de éxito, es decir, el porcentaje de usuarios que completan una tarea sin ayuda, con el objetivo de que al menos el 90 % lo consiga. También contaremos los errores cometidos en cada tarea, como pulsar un botón equivocado o introducir un dato inválido, y buscamos que no haya más de un error por tarea.
+
+**Eficiencia.** Mide el esfuerzo que necesita el usuario para alcanzar su objetivo. Contaremos el número de clics desde la pantalla de inicio hasta obtener el itinerario, que no debe superar los tres clics. Además, cronometraremos el tiempo que tarda el usuario en crear un viaje, con el objetivo de que sea inferior a dos minutos.
+
+**Satisfacción.** Mide si el uso de la aplicación resulta agradable. Para evaluarla utilizaremos un cuestionario para conocer su nivel de satisfacción.
+
+### 2.2 Medidas de accesibilidad que cumple LazyTrip
+
+Tras revisar los mockups de LazyTrip según los criterios de conformidad de las WCAG 2.2 [6][14], hemos comprobado que la aplicación ya cumple las siguientes medidas de accesibilidad:
+
+**Títulos descriptivos (2.4.2 y 2.4.6 – Nivel A y AA).** Cada pantalla tiene un título que explica claramente para qué sirve, como "¿Qué quieres hacer hoy?", "Elige cualquier destino", "Presupuesto y estilo" o "Alojamiento en Lisboa".
+
+**Etiquetas e instrucciones (3.3.2 – Nivel A).** Todos los campos indican qué dato hay que introducir: correo electrónico, contraseña, llegada, salida y viajeros. Además, el campo de destino incluye un texto de ayuda: "Puedes elegir cualquier ciudad del mundo o elegir una sugerencia".
+
+**Navegación coherente (3.2.3 – Nivel AA).** Los elementos que se repiten aparecen siempre en la misma posición: el botón "Cancelar" a la izquierda, "Continuar" a la derecha y el enlace "Volver al inicio" en la parte superior de cada paso.
+
+**Identificación coherente (3.2.4 – Nivel AA).** Los botones que realizan la misma acción tienen siempre el mismo nombre, como "Continuar" y "Cancelar" en todos los pasos.
+
+**Ubicación del usuario (2.4.8 – Nivel AAA).** El usuario sabe en todo momento en qué parte del proceso se encuentra gracias a los indicadores "Paso 1 de 3", "Paso 2 de 3" y "Paso 3 de 3". Este criterio pertenece al nivel máximo de las WCAG, por lo que supera el nivel AA que nos hemos marcado como objetivo.
+
+**Sin límites de tiempo (2.2.1 – Nivel A).** Ninguna pantalla obliga al usuario a realizar una acción en un tiempo determinado, de modo que cada persona puede ir a su ritmo.
+
+**Sin destellos (2.3.1 – Nivel A).** La aplicación no contiene animaciones ni elementos que parpadeen, que podrían provocar crisis en personas con epilepsia fotosensible.
+
+**Instrucciones que no dependen de la forma o la posición (1.3.3 – Nivel A).** Las indicaciones se dan siempre mediante texto, como "Elige cualquier destino" o "Iniciar sesión", y nunca con expresiones como "pulsa el botón de la derecha".
+
+**Información no transmitida solo con color (1.4.1 – Nivel A), cumplido en parte.** Las etiquetas de los alojamientos ("Mejor equilibrio", "Mejor ubicación" y "Más comodidad") son texto, la valoración aparece con número ("★ 9.1") y el presupuesto restante se muestra en cifras. Sin embargo, los botones de tipo de viaje y las pestañas todavía no indican de forma clara cuál está seleccionado.
+
+**Contraste del texto (1.4.3 – Nivel AA).** Los elementos principales tienen un contraste adecuado, como el botón "Iniciar sesión", el importe del presupuesto, el título del destino, los nombres de los hoteles o el recuadro de presupuesto diario.
+
+
+
+
+
+
+
+
+
+
 ### 4.1 Grupo de botones
 Cuando diseñamos un grupo de botones, es crucial que exista una jerarquía clara y visible entre ellos, de forma que se distingan bien las funciones de cada botón que se vaya a implementar en la aplicación. 
 
