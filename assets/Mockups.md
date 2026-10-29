@@ -22,3 +22,7 @@
 **PANTALLA MIS VIAJES**
 
 <img width="1663" height="540" alt="image" src="https://github.com/user-attachments/assets/efa54fd6-c645-49f0-b704-688cbfb55f9d" />
+
+**PANTALLA RESUMEN**
+
+<img width="1401" height="854" alt="image" src="https://github.com/user-attachments/assets/7e47eb8a-3281-44b6-8bf8-a37bc7b92366" />
