@@ -140,28 +140,28 @@ Cuando diseñamos un grupo de botones, es crucial que exista una jerarquía clar
 
 Esta jerarquía permite que el usuario identifique de forma inmediata cuál es la acción principal, cuál es secundaria, y cuáles son opciones adicionales. Para lograrlo, utiliza contrastes en el color, el tamaño, y el peso visual de cada botón.
 
-Por ejemplo, el botón que lleva a la acción primaria debería ser más prominente, ya sea por su color más vibrante, un tamaño mayor, o una tipografía en negrita, mientras que los botones secundarios pueden ser de un color más tenue o con un borde más ligero. [1]
+Por ejemplo, el botón que lleva a la acción primaria debería ser más prominente, ya sea por su color más vibrante, un tamaño mayor, o una tipografía en negrita, mientras que los botones secundarios pueden ser de un color más tenue o con un borde más ligero. [15]
 
 Diferenciar entre los botones ayudará a los usuarios a usar la aplicación de forma más clara.
 
 ### 4.2 Evitar el peligro
 Uno de los principios fundamentales en el diseño de UX/UI es proteger al usuario de errores que puedan tener consecuencias negativas, esto puede lograrse con una buena distribución semántica y dejando claras las funciones que tendrá cada botón. 
 
-Por eso, el botón que resulte más atractivo a la vista, ya sea por su color, su tamaño, o su ubicación, debe llevar a una acción segura. Imagina un botón que esté en un tono llamativo y en una posición central: este botón debe realizar una acción como «Guardar» o «Continuar», no algo irreversible como «Eliminar» o «Resetear». [1]
+Por eso, el botón que resulte más atractivo a la vista, ya sea por su color, su tamaño, o su ubicación, debe llevar a una acción segura. Imagina un botón que esté en un tono llamativo y en una posición central: este botón debe realizar una acción como «Guardar» o «Continuar», no algo irreversible como «Eliminar» o «Resetear». [15]
 
 Este enfoque protege a los usuarios de no llevar a cabo acciones de grave peligro dentro de la aplicación por errores o malas indicaciones de los desarrolladores.
 
 ### 4.3 Mostrar el peligro
-El color rojo es universalmente asociado con peligro, alerta o prohibición. El rojo se utiliza en aplicaciones para generar sensación de urgencia o alerta. [2] En nuestro caso, no implementaremos acciones de tal gravedad, ya que priorizamos que la interfaz sea amigable.
+El color rojo es universalmente asociado con peligro, alerta o prohibición. El rojo se utiliza en aplicaciones para generar sensación de urgencia o alerta. [16] En nuestro caso, no implementaremos acciones de tal gravedad, ya que priorizamos que la interfaz sea amigable.
 
 En diseño de interfaces, este color puede ser una herramienta de gran utilidad para advertir a los usuarios sobre acciones que podrían tener consecuencias importantes o irreversibles, como borrar datos, cerrar una cuenta o cancelar una suscripción. 
 
-Usar el rojo para estos botones no solo hace que resalten visualmente, sino que también activa una alerta psicológica en el usuario, llevándolo a reconsiderar su decisión antes de proceder. Sin embargo, es fundamental no abusar del uso del rojo para evitar confusiones o desensibilización; debe reservarse únicamente para aquellas acciones que realmente requieren atención y consideración adicionales. [1]
+Usar el rojo para estos botones no solo hace que resalten visualmente, sino que también activa una alerta psicológica en el usuario, llevándolo a reconsiderar su decisión antes de proceder. Sin embargo, es fundamental no abusar del uso del rojo para evitar confusiones o desensibilización; debe reservarse únicamente para aquellas acciones que realmente requieren atención y consideración adicionales. [15]
 
 ### 4.4 Formas homogéneas
 La consistencia visual es uno de los pilares del buen diseño de interfaces. Los botones de tu sitio web o aplicación deben tener una forma y estilo uniformes para que el usuario los reconozca y los asocie fácilmente. 
 
-Si un botón es redondeado, todos los botones deben ser redondeados; si tienen bordes rectos, lo mismo aplica. Esta coherencia no solo refuerza la identidad visual de tu producto, sino que también facilita la navegación al usuario, creando una experiencia más fluida y sin distracciones. [1] 
+Si un botón es redondeado, todos los botones deben ser redondeados; si tienen bordes rectos, lo mismo aplica. Esta coherencia no solo refuerza la identidad visual de tu producto, sino que también facilita la navegación al usuario, creando una experiencia más fluida y sin distracciones. [15] 
 
 Los cambios de forma o estilo solo deben aplicarse si tienen una razón funcional clara, como diferenciar un botón de acción primaria de uno secundario, pero siempre dentro de un marco de diseño coherente.
 
@@ -175,10 +175,10 @@ Los cambios de forma o estilo solo deben aplicarse si tienen una razón funciona
 - **Azul Primario (Acciones Principales y Acentuación):** Azul eléctrico/intenso empleado en botones de llamado a la acción (*Iniciar sesión*, *Comprobar en Booking*) y bloques destacados.
 - **Azul Secundario (Destacados y Tarjetas de Resumen):** Azul marino/petróleo oscuro utilizado en tarjetas de selección lateral, títulos principales y botones de acción secundaria (*+ Añadir*, botones de paso).
 - **Verde Agua / Turquesa:** Utilizado para resaltar badges de recomendación (*Mejor equilibrio*, *Mejor ubicación*), valores monetarios clave y botones de confirmación principal (*Elegir y crear itinerario*).
-- **Gris Neutro y Suave:** Empleado en bordes de inputs, etiquetas secundarias, marcadores de rango, campos de formulario y líneas divisorias. [3]
+- **Gris Neutro y Suave:** Empleado en bordes de inputs, etiquetas secundarias, marcadores de rango, campos de formulario y líneas divisorias. [17]
 
 ### 5.2 Fuentes
-- **Tipografía / Familia:** Sans-Serif de trazo limpio, legible y moderno. [4]
+- **Tipografía / Familia:** Sans-Serif de trazo limpio, legible y moderno. [18]
 - **Jerarquía Tipográfica:**
   - **Títulos de Sección / Pregunta:** Sans-Serif con peso de fuente *Bold* o *Extra Bold*, tamaño grande y color azul oscuro.
   - **Etiquetas Superiores (Overlines / Categories):** Texto en mayúsculas sostenidas, de menor tamaño, en tono turquesa/verde agua o gris neutro.
@@ -434,7 +434,21 @@ La secuencia de control determina lo que el usuario puede hacer en cada momento 
 
 ### 9.Referencias
 
-* **[1]** Mitto, «Guía de botones UX UI,» *Mitto Agency*, 30 de julio de 2024. [En línea]. Disponible en: https://mitto.agency/guia-de-botones-ux-ui/. [Accedido: 21-oct-2026].
-* **[2]** Yapiko.com. Consultado: el 28 de octubre de 2026. [En línea]. Disponible en: https://yapiko.com/es/blog/psicologia-del-color-en-el-diseno-de-interfaces-moviles/. [Accedido: 28-oct-2026].
-* **[3]** E. E. de Empresa, “La psicología del color y sus aplicaciones”, Escuela Europea de Empresa. Consultado: el 29 de octubre de 2026. [En línea]. Disponible en: https://escuelaeuropeadeempresa.eu/la-psicologia-del-color-y-sus-aplicaciones/
-* **[4]** O. Velarde, “La guía definitiva de la psicología de la tipografía”, Visme Blog. Consultado: el 29 de octubre de 2026. [En línea]. Disponible en: https://visme.co/blog/es/psicologia-de-la-tipografia/
+* **[1]** Sage, "Usabilidad," *Diccionario empresarial – Blog de Sage España*. [En línea]. Disponible en: https://www.sage.com/es-es/blog/diccionario-empresarial/usabilidad/. [Accedido: 29-oct-2026].
+* **[2]** J. Nielsen, "Usability 101: Introduction to Usability," *Nielsen Norman Group*. [En línea]. Disponible en: https://www.nngroup.com/articles/usability-101-introduction-to-usability/. [Accedido: 29-oct-2026].
+* **[3]** Profile Software Services, "Los 10 principios de usabilidad web de Jakob Nielsen," *Blog de Profile*. [En línea]. Disponible en: https://profile.es/blog/los-10-principios-de-usabilidad-web-de-jakob-nielsen/. [Accedido: 29-oct-2026].
+* **[4]** Inforges, "Usabilidad y accesibilidad: dos pilares de una web efectiva e inclusiva," *Blog de Inforges*. [En línea]. Disponible en: https://inforges.es/blog/usabilidad-y-accesibilidad-dos-pilares-de-una-web-efectiva-e-inclusiva/. [Accedido: 29-oct-2026].
+* **[5]** ILUNION, "WCAG: pautas de accesibilidad," *Blog Punto ILUNION*. [En línea]. Disponible en: https://www.ilunion.com/es/blog-puntoilunion/wcag-accesibilidad. [Accedido: 29-oct-2026].
+* **[6]** W3C, "Web Content Accessibility Guidelines (WCAG) 2.2," *W3C Recommendation*. [En línea]. Disponible en: https://www.w3.org/TR/WCAG22/. [Accedido: 29-oct-2026].
+* **[7]** Oracle, "Java Accessibility Guide," *Java SE Documentation*. [En línea]. Disponible en: https://docs.oracle.com/en/java/javase/21/access/. [Accedido: 29-oct-2026].
+* **[8]** International Organization for Standardization, *ISO 9241-11:2018 Ergonomics of human-system interaction — Part 11: Usability: Definitions and concepts*, Ginebra: ISO, 2018. [En línea]. Disponible en: https://www.iso.org/standard/63500.html. [Accedido: 29-oct-2026].
+* **[9]** International Organization for Standardization, *ISO 9241-210:2019 Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems*, Ginebra: ISO, 2019. [En línea]. Disponible en: https://www.iso.org/standard/77520.html. [Accedido: 29-oct-2026].
+* **[10]** ETSI, CEN y CENELEC, *EN 301 549 V3.2.1: Accessibility requirements for ICT products and services*, 2021. [En línea]. Disponible en: https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf. [Accedido: 29-oct-2026].
+* **[11]** Parlamento Europeo y Consejo de la Unión Europea, "Directiva (UE) 2019/882 sobre los requisitos de accesibilidad de los productos y servicios," *Diario Oficial de la Unión Europea*, L 151, 2019. [En línea]. Disponible en: https://eur-lex.europa.eu/eli/dir/2019/882/oj. [Accedido: 29-oct-2026].
+* **[12]** Jefatura del Estado, "Ley 11/2023, de 8 de mayo, de trasposición de Directivas de la Unión Europea en materia de accesibilidad de determinados productos y servicios," *Boletín Oficial del Estado*, núm. 110, 2023. [En línea]. Disponible en: https://www.boe.es/buscar/act.php?id=BOE-A-2023-10899. [Accedido: 29-oct-2026].
+* **[13]** Ministerio de Política Territorial y Función Pública, "Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público," *Boletín Oficial del Estado*, núm. 227, 2018. [En línea]. Disponible en: https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699. [Accedido: 29-oct-2026].
+* **[14]** W3C WAI, "How to Meet WCAG (Quick Reference)." [En línea]. Disponible en: https://www.w3.org/WAI/WCAG22/quickref/. [Accedido: 29-oct-2026].
+* **[15]** Mitto, «Guía de botones UX UI,» *Mitto Agency*, 30 de julio de 2024. [En línea]. Disponible en: https://mitto.agency/guia-de-botones-ux-ui/. [Accedido: 21-oct-2026].
+* **[16]** Yapiko, "Psicología del color en el diseño de interfaces móviles," *Blog de Yapiko*. [En línea]. Disponible en: https://yapiko.com/es/blog/psicologia-del-color-en-el-diseno-de-interfaces-moviles/. [Accedido: 28-oct-2026].
+* **[17]** Escuela Europea de Empresa, "La psicología del color y sus aplicaciones," *Escuela Europea de Empresa*. [En línea]. Disponible en: https://escuelaeuropeadeempresa.eu/la-psicologia-del-color-y-sus-aplicaciones/. [Accedido: 29-oct-2026].
+* **[18]** O. Velarde, "La guía definitiva de la psicología de la tipografía," *Visme Blog*. [En línea]. Disponible en: https://visme.co/blog/es/psicologia-de-la-tipografia/. [Accedido: 29-oct-2026].
