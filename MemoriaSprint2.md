@@ -455,7 +455,7 @@ La última pantalla permite subir y organizar fotografías directamente desde la
 6. **Guardar el viaje**, pulsando en "Guardar en Perfil" si tiene cuenta activa o en "Descargar PDF" para guardarlo en su equipo.
 7. **Consultar sus viajes**, entrando más adelante al apartado "Mis viajes" para revisar el resumen de sus escapadas planificadas.
 8. **Subir sus fotos**, accediendo a la galería para subir las imágenes de su viaje organizadas por el día en que fueron tomadas.
-
+![IMAGEN DEL DIAGRAMA ](/assets/diagramaFlujo.png)
 ---
 
 ### 6.4 Diseño de métodos, atributos y clases de nuestra aplicación
